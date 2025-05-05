@@ -1,0 +1,1132 @@
+
+
+.fullImage {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    font-family: "Atkinson Hyperlegible", Arial;
+}
+
+.header h2 {
+    text-align: left;
+    margin: 0;
+    padding-left: 0;
+    width: 100%;
+    line-height: 1;
+    margin-top: 5px;
+}
+
+
+.header img {
+    width: 40px;
+    margin-right: 10px;
+    float: left;
+}
+
+.canvasPageCon {
+    max-width: 800px;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+.canvasPageCon h2 {
+    color: #0B57D0;
+    font-weight: bold;
+    font-size: 1.76rem;
+    text-align: left;
+    padding-top: 5px;
+}
+
+.canvasPageCon h3 {
+    color: #0B57D0;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-align: left;
+    font-family: "Atkinson Hyperlegible", serif;
+}
+
+.pageBody {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+.pageBody p {
+    padding-bottom: 0;
+}
+
+.pageBody ol {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.pageBody h2 {
+    color: #00274C;
+    font-weight: bold;
+    font-size: 1.76rem;
+    text-align: left;
+    font-family: "Atkinson Hyperlegible", Arial;
+}
+
+.pageBody h3 {
+    color: #707070;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-align: left;
+    font-family: "Atkinson Hyperlegible", Arial;
+}
+
+.pageBody h4 {
+    color: #414042;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: left;
+    font-family: "Atkinson Hyperlegible", Arial;
+}
+
+.pageBody h5 {
+    color: #100591;
+    font-size: 1rem;
+    text-align: left;
+    font-family: "Atkinson Hyperlegible", Arial;
+}
+
+.pageBody h5 span {
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    font-family: "Atkinson Hyperlegible", Arial;
+}
+
+.pageBody hr {
+    border-bottom: 2px solid #FFCB05;
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+/* Landing Page Styles */
+
+.landingPageHeader {
+    background-color: #00274C;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 6px solid #FFCB03;
+}
+
+.landingPageHeaderTitle {
+    width: 70%;
+}
+
+.landingPageHeaderTitle h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+    font-family: "Atkinson Hyperlegible", Arial;
+}
+
+.landingPageHeaderTitle p {
+    font-size: medium;
+    color: white;
+    margin: 5px;
+    font-family: "Atkinson Hyperlegible", Arial;
+}
+
+.landingPageHeader img {
+    display: flex;
+    max-width: 20%;
+    height: auto;
+    float: right;
+    align-self: flex-start;
+    border: 1px solid white;
+    justify-content: space-around;
+}
+
+@media (max-width: 800px) {
+    .landingPageHeader h2 {
+        font-size: 1em;
+    }
+
+    .landingPageHeader img {
+        max-width: 20%;
+
+    }
+
+    .landingPageHeader p {
+        font-size: 0.8em;
+    }
+}
+
+.landingPageNavCon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.landingPageNavButtons {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none !important;
+    background-color: #0B57D0;
+    border-top: 3px solid #58B5F7;
+    color: white;
+    flex: 1 1 20%;
+    white-space: normal;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.landingPageNavButtons:hover {
+    font-size: 20px;
+    color: white;
+}
+
+.landingPageNavButtons a {
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .landingPageNavButtons {
+        flex: 1 1 80%;
+        font-size: 18px;
+    }
+}
+
+/* Landing Page Nav Buttons 4 */
+
+.landingPageNavButtons4 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none !important;
+    background-color: #0B57D0;
+    border-top: 3px solid #58B5F7;
+    color: white;
+    flex: 1 1 20%;
+    white-space: normal;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.landingPageNavButtons4 a {
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+@media (max-width: 640px) {
+    .landingPageNavCon {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    .landingPageNavButtons4 {
+        flex: 1 1 45%;
+        white-space: normal;
+        height: 50px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 500px) {
+    .landingPageNavButtons4 {
+        flex: 1 1 80%;
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+}
+
+.landingPageNavButtons4:hover {
+    font-size: 20px;
+    color: white;
+}
+
+/* Landing Page 5 buttons */
+.landingPageNavCon5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1240px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.landingPageNavButtons5 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none !important;
+    background-color: #0B57D0;
+    border-top: 3px solid #58B5F7;
+    color: white;
+    flex: 1 1 10%;
+    white-space: normal;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.landingPageNavButtons5 a {
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .landingPageNavCon {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    .landingPageNavButtons5 {
+        flex: 1 1 45%;
+        white-space: normal;
+        height: 50px;
+        font-size: 18px;
+        flex: 1 1 calc(33.33% - 15px);
+    }
+}
+
+@media (max-width: 500px) {
+    .landingPageNavButtons5 {
+        flex: 1 1 80%;
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+}
+
+.landingPageNavButtons5:hover {
+    font-size: 20px;
+    color: white;
+}
+
+/* Landing Page People Intro */
+
+.courseFacilitatorCon {
+    padding: 20px;
+}
+
+.courseFacilitatorCon h2 {
+    color: #0B57D0;
+    font-weight: 700;
+    text-align: left;
+    font-family: "Atkinson Hyperlegible", serif;
+}
+
+.courseFacilitatorIntro {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.courseFacilitatorPerson {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    width: 45%
+}
+
+@media (max-width: 768px) {
+    .courseFacilitatorPerson {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .courseFacilitatorPerson img {
+        width: 120px;
+        float: none;
+    }
+
+    .courseFacilitatorPerson h3 {
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .courseFacilitatorPerson h2,
+    .courseFacilitatorPerson p {
+        text-align: center;
+    }
+
+    .courseFacilitatorPerson div hr {
+        width: 150px;
+        align-content: center;
+        margin: 0 auto;
+    }
+}
+
+.courseFacilitatorPerson img {
+    width: 150px;
+    float: left
+}
+
+.courseFacilitatorPerson h2 {
+    color: #6c757d;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    margin: 0px;
+    font-family: "Atkinson Hyperlegible", serif;
+}
+
+.courseFacilitatorPerson h3 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    color: #6c757d;
+    font-family: "Atkinson Hyperlegible", serif;
+}
+
+.courseFacilitatorPerson p {
+    color: #0B57D0;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Atkinson Hyperlegible", serif;
+}
+
+.courseFacilitatorPerson p a {
+    color: #0B57D0;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Atkinson Hyperlegible", serif;
+}
+
+.courseFacilitatorPerson hr {
+    width: 50px;
+    border: 1px solid #FFCB05;
+    margin: 10px 0;
+    font-family: "Atkinson Hyperlegible", serif;
+}
+
+.divisionLineYellow {
+    border-bottom: 2px solid #FFCB05;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.divisionLineYellowTop {
+    border-top: 2px solid #FFCB05;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.moduleNavCon {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    justify-content: center;
+}
+
+.moduleNavButtons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+    cursor: pointer;
+    text-decoration: none !important;
+    margin-bottom: 20px;
+}
+
+.moduleNavButtons a:hover {
+    font-size: 19px;
+    color: white;
+}
+
+.moduleNavButtons a {
+    background-color: #0B57D0;
+    padding: 15px;
+    height: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    text-decoration: none !important;
+    border-top: 3px solid #58B5F7;
+    transition-duration: 0.4s;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 800px) {
+    .moduleNavButtons a {
+        font-size: 14px;
+    }
+
+    .moduleNavButtons a:hover {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 667px) {
+    .moduleNavButtons a {
+        font-size: 14px;
+        align-items: center;
+        display: flex;
+    }
+
+    .moduleNavButtons a:hover {
+        font-size: 15px;
+    }
+}
+
+.landingPageFooter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    position: relative;
+    border-top: 2px solid #FFCB05;
+    flex-direction: column;
+}
+
+.landingPageFooter img {
+    display: block;
+    width: auto;
+    max-width: 50%;
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.landingPageFooter p {
+    font-size: 14px;
+    text-align: center;
+}
+
+/* banners of different colors */
+.darkBluePageHeader {
+    width: 100%;
+    background-color: #100591;
+    height: 30px;
+    border-top: 5px solid #4184F5;
+    padding: 0px;
+    margin-bottom: 5px;
+}
+
+.darkBluePageHeader h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 2.25rem;
+    padding: 0 15px 15px 20px;
+    font-family: "Atkinson Hyperlegible", serif;
+}
+
+.darkBluePageHeader p {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 5px 0 0 20px;
+    font-family: "DAtkinson Hyperlegible", serif;
+}
+
+.darkBluePageHeader img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+.bluePageHeader {
+    width: 100%;
+    background-color: #00274C;
+    height: 30px;
+    border-top: 5px solid #FFCB05;
+    padding: 0px;
+    margin-bottom: 5px;
+}
+
+.bluePageHeader h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 2.25rem;
+    padding: 0 15px 15px 20px;
+}
+
+.bluePageHeader p {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 5px 0 0 20px;
+}
+
+.bluePageHeader img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+.lightBluePageHeader {
+    width: 100%;
+    background-color: #305CDE;
+    height: 30px;
+    border-top: 5px solid #59B5F7;
+    padding: 0px;
+    margin-bottom: 5px;
+}
+
+.lightBluePageHeader h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 2.25rem;
+    padding: 0 15px 15px 20px;
+}
+
+.lightBluePageHeader p {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 5px 0 0 20px;
+}
+
+.lightBluePageHeader img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+/* Media Page Styles */
+
+.photoGallery {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    gap: 1%;
+    margin-bottom: 20px;
+}
+
+.photoGallery img {
+    width: 49%;
+    height: 300px;
+    display: flex;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
+
+.videoCon {
+    border: 2px solid #FFCB05;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.videoCon img {
+    width: 40px;
+    margin-right: 10px;
+    float: left;
+}
+
+.videoCon iframe {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.videoCon li {
+    line-height: 1.5rem;
+}
+
+.videoCon hr {
+    border-bottom: 2px solid #FFCB05;
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+.pointToNoteCon {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.pointToNoteCon p {
+    margin: 0 0 10px 0;
+    line-height: 1.5;
+    clear: left;
+    font-size: 16px;
+}
+
+.pointToNote {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    background-color: #0B57D0;
+    color: white;
+    padding: 20px;
+    float: right;
+    clear: right;
+    width: 30%;
+    border-top: #40ABD7 5px solid;
+    margin: 0 0 0 20px;
+}
+
+.pointToNote h2 {
+    color: white;
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.pointToNote ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .pointToNote {
+        float: none;
+        width: auto;
+        margin: 20px 0 0 0;
+        order: 2;
+    }
+
+    .pointToNoteCon {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pointToNoteText {
+        order: 1;
+    }
+}
+
+/* Point to Note Float Left */
+.pointToNoteLeftCon {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.pointToNoteLeftCon p {
+    margin: 0 0 10px 0;
+    line-height: 1.5;
+    clear: right;
+    font-size: 16px;
+}
+
+.pointToNoteLeft {
+    display: flex;
+    flex-direction: column;
+    background-color: #0B57D0;
+    color: white;
+    padding: 20px;
+    float: left;
+    width: 30%;
+    border-top: #40ABD7 5px solid;
+    margin: 0 20px 0 0;
+}
+
+.pointToNoteLeft h2 {
+    color: white;
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.pointToNoteLeft ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .pointToNoteLeft {
+        float: none;
+        width: auto;
+        margin: 20px 0 0 0;
+        order: 2;
+    }
+
+    .pointToNoteLeftCon {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pointToNoteLeftText {
+        order: 1;
+    }
+}
+/* Call out Box Full Width */
+
+.fullCallOutBoxCon {
+    margin-bottom: 20px;
+}
+
+.fullCallOutBoxCon p {
+    line-height: 1.5;
+    clear: left;
+}
+
+.fullCallOutBox {
+    display: flex;
+    flex-direction: column;
+    background-color: #0B57D0;
+    color: white;
+    padding: 20px;
+    border-top: #40ABD7 5px solid;
+}
+
+.fullCallOutBox h2 {
+    color: white;
+    margin-top: 0;
+}
+
+.fullCallOutBox ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+/* Side by Side Call Out Box */
+.sideBySideCallOutCon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sideBySideCallOut {
+    flex: 1;
+    min-width: 250px;
+    background-color: #fffae6;
+    border-top: 5px solid #2F65A7;
+    padding: 20px;
+}
+
+.sideBySideCallOut h2 {
+    margin-top: 0;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+}
+
+.healthBehaviorsDiagram {
+    width: 100%;
+    border: 1px solid black;
+}
+
+
+/* Overview and Objectives */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: "noto serif", Arial;
+}
+
+.quote p {
+    color: #707070;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 1rem;
+    margin-left: 120px;
+    font-weight: 300;
+}
+
+.quoteAuthor {
+    color: rgb(95, 95, 95);
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: auto;
+    align-self: flex-end;
+    margin-bottom: 5px;
+}
+
+.quote img {
+    float: left;
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 20px;
+}
+
+/* Classic Blockquote Style */
+.classic-quote {
+    border-left: 4px solid #0000CD;
+    padding-left: 20px;
+    font-style: italic;
+    color: #6b6b6b;
+}
+
+/* Modern Minimalist Style */
+.minimalist-quote {
+    position: relative;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.4em;
+    color: #34495e;
+}
+
+.minimalist-quote::before,
+.minimalist-quote::after {
+    content: '"';
+    position: absolute;
+    font-size: 3em;
+    opacity: 0.3;
+}
+
+.minimalist-quote::before {
+    left: -30px;
+    top: -10px;
+}
+
+.minimalist-quote::after {
+    right: -30px;
+    bottom: -30px;
+}
+
+/* Artistic Quote Style */
+.artistic-quote {
+    background: linear-gradient(to right, #00274C, #0B57D0);
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+}
+
+.artistic-quote::before {
+    content: '❝';
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 3em;
+    opacity: 0.7;
+}
+
+.artistic-quote::after {
+    content: '❞';
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 3em;
+    opacity: 0.7;
+}
+
+/* Vintage Quote Style */
+.vintage-quote {
+    border: 2px dashed #95a5a6;
+    background-color: #ecf0f1;
+    padding: 25px;
+    text-align: center;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-style: italic;
+    color: #2c3e50;
+    position: relative;
+}
+
+.vintage-quote .author {
+    display: block;
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
+
+/* Highlight Quote Style */
+.highlight-quote {
+    background-color: #0B57D0;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    font-weight: 500;
+}
+
+.highlight-quote::before {
+    content: '✦';
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.highlight-quote::after {
+    content: '✦';
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/*  Buddy Quote - Light Blue - Image on Left */
+.quoteBlueLeft {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #40ABD7;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.quoteBlueLeft p {
+    color: black;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 1rem;
+    margin-left: 120px;
+}
+
+.quoteBlueLeftAuthor {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: auto;
+    align-self: flex-end;
+}
+
+.quoteBlueLeft img {
+    float: left;
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 20px;
+}
+
+/*  Buddy Quote - Light Blue - Image on right */
+.quoteBlueRight {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #40ABD7;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.quoteBlueRight p {
+    color: black;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 1rem;
+    margin-right: 120px;
+}
+
+.quoteBlueRightAuthor {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: auto;
+    align-self: flex-start;
+}
+
+.quoteBlueRight img {
+    float: right;
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+/*  Buddy Quote - Light Yellow - Image on Left */
+.quoteYellowLeft {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: lightyellow;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.quoteYellowLeft p {
+    color: black;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 1rem;
+    margin-left: 120px;
+}
+
+.quoteYellowLeftAuthor {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: auto;
+    align-self: flex-end;
+}
+
+.quoteYellowLeft img {
+    float: left;
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 20px;
+}
+
+/*  Buddy Quote - Light Yellow - Image on right */
+.quoteYellowRight {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: lightyellow;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.quoteYellowRight p {
+    color: black;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 1rem;
+    margin-right: 120px;
+}
+
+.quoteYellowRightAuthor {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: auto;
+    align-self: flex-start;
+}
+
+.quoteYellowRight img {
+    float: right;
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
