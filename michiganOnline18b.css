@@ -1154,3 +1154,21 @@
      right: 20px;
      transform: translateY(-50%);
  }
+
+ .gradientBreak {
+    padding: 30px 0;
+}
+
+.breakBlue{
+    width: 66%; 
+    height: 4px; 
+    background: linear-gradient(to right, rgba(0, 39, 76, 0), #00274C, rgba(0, 39, 76, 0)); 
+    margin: 0 auto;
+}
+
+.breakYellow{
+    width: 66%; 
+    height: 4px; 
+    background: linear-gradient(to right, rgba(255, 203, 5, 0), #FFCB05, rgba(255, 203, 5, 0)); 
+    margin: 0 auto;
+}
