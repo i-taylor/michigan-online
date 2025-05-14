@@ -1213,3 +1213,80 @@
         max-width: 500px;
     }
 }
+
+
+/* new buddy quotes */
+.quoteBox {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+
+.imgWrapper {
+  width: 150px;
+  flex-shrink: 0;
+  display: flex;
+}
+
+.imgWrapper::before {
+  content: "";
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1; /* Enforces square shape */
+}
+
+.imgWrapper img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.imgWrapper {
+  position: relative;
+}
+
+/* The quote text */
+.quoteContent {
+  flex: 1 1 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.quoteContent blockquote {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 0 0 10px 0;
+}
+
+.quoteContent cite {
+  font-style: italic;
+  font-size: 0.9em;
+  display: block;
+}
+
+/* Background colors */
+.quoteStyle1 {
+  background-color: #D7DEF7;
+}
+
+.quoteStyle2 {
+  background-color: #FDEDAF;
+}
+
+/* Responsive fallback */
+@media (max-width: 600px) {
+  .quoteBox {
+    flex-direction: column;
+  }
+
+  .imgWrapper {
+    width: 100%;
+  }
+
+  .imgWrapper::before {
+    aspect-ratio: auto;
+    padding-top: 56.25%; /* 16:9 as fallback */
+  }
+}
