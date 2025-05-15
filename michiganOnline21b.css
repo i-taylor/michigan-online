@@ -1378,12 +1378,14 @@
   cursor: pointer;
   padding: 1em;
   font-weight: bold;
-  list-style: none;
+  /* list-style: none; */
 }
+
 
 .ai-accordion-a summary::-webkit-details-marker {
   display: none; /* Remove default marker for full control if needed */
 }
+*/
 
 .ai-accordion-a .accordion-content {
   padding: 1em;
