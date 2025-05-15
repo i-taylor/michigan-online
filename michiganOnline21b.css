@@ -1355,7 +1355,7 @@
 
 
 
-/* accordian test */
+/* accordian a - alternating colors */
 .ai-accordion-a {
   border: 1px solid #ccc;
   margin: 2em 0;
@@ -1381,14 +1381,14 @@
   /* list-style: none; */
 }
 
-
 .ai-accordion-a summary::-webkit-details-marker {
   display: none; /* Remove default marker for full control if needed */
 }
 */
 
 .ai-accordion-a .accordion-content {
-  padding: 1em;
+  padding: 0.5em 1em; /* reduce from 1em if needed */
+  margin: 0;           /* prevent inherited spacing */
 }
 
 .ai-accordion-a .blue-row {
@@ -1397,4 +1397,36 @@
 
 .ai-accordion-a .yellow-row {
   background-color: #FCF5CE;
+}
+
+
+/* accordion b blue with blue top padding */
+.ai-accordion-b {
+  border: 1px solid #ccc;
+  margin: 2em 0;
+  font-family: sans-serif;
+}
+
+.ai-accordion-b .accordion-title {
+  background-color: #00274C; /* UM Blue */
+  color: #ffffff;
+  padding: 1em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.ai-accordion-b .accordion-row {
+  background-color: #D7DEF7;
+  border-top: 4px solid #889DE6; /* Accent border */
+}
+
+.ai-accordion-b summary {
+  cursor: pointer;
+  padding: 1em;
+  font-weight: bold;
+}
+
+.ai-accordion-b .accordion-content {
+  padding: 0.5em 1em; /* reduce from 1em if needed */
+  margin: 0;           /* prevent inherited spacing */
 }
