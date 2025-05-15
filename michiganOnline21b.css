@@ -494,6 +494,12 @@
     margin-top: 20px;
 } 
 
+/* added 2025-05-15 need padding below yellow line */
+
+p.divisionLineYellow{
+    padding-bottom: 20px;
+}
+
 .divisionLineYellowTop {
     border-top: 2px solid #FFCB05;
     margin-bottom: 20px;
@@ -1357,7 +1363,7 @@
 
 /* accordian a - alternating colors */
 .ai-accordion-a {
-  border: 1px solid #ccc;
+  /*border: 1px solid #c90076;*/
   margin: 2em 0;
   font-family: sans-serif;
 }
@@ -1370,9 +1376,9 @@
   font-size: 1.2em;
 }
 
-.ai-accordion-a details {
+/* .ai-accordion-a details {
   border-top: 1px solid #ccc;
-}
+} */
 
 .ai-accordion-a summary {
   cursor: pointer;
@@ -1387,7 +1393,7 @@
 */
 
 .ai-accordion-a .accordion-content {
-  padding: 0.5em 1em; /* reduce from 1em if needed */
+  padding: 0.2em 1em; /* reduce from 1em if needed */
   margin: 0;           /* prevent inherited spacing */
 }
 
@@ -1400,9 +1406,10 @@
 }
 
 
+
 /* accordion b blue with blue top padding */
 .ai-accordion-b {
-  border: 1px solid #ccc;
+  /*border: 1px solid #c90076;*/
   margin: 2em 0;
   font-family: sans-serif;
 }
@@ -1427,6 +1434,29 @@
 }
 
 .ai-accordion-b .accordion-content {
-  padding: 0.5em 1em; /* reduce from 1em if needed */
+  padding: 0.2em 1em; /* reduce from 1em if needed */
   margin: 0;           /* prevent inherited spacing */
 }
+
+.ai-accordion-a .accordion-row,
+.ai-accordion-b .accordion-row {
+  margin-bottom: 2px; /* Adds 2px space between each item */
+}
+
+
+/* note about paragraph martin options */
+
+
+/* Fix: Remove the default top margin on <p>
+Add this CSS rule:
+.ai-accordion-a .accordion-content p,
+.ai-accordion-b .accordion-content p {
+  margin-top: 0;
+}
+
+Optional (tighten spacing further)
+You can also reduce bottom margin:
+.ai-accordion-a .accordion-content p,
+.ai-accordion-b .accordion-content p {
+  margin: 0;
+} */
