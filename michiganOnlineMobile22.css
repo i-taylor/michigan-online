@@ -1206,6 +1206,8 @@ p.divisionLineYellow{
   display: flex;
   align-items: stretch;
   width: 100%;
+  margin: 2em 0;
+  font-family: "noto serif", Arial;
 }
 
 .imgWrapper {
@@ -1244,6 +1246,8 @@ p.divisionLineYellow{
   font-weight: bold;
   font-size: 1.2em;
   margin: 0 0 10px 0;
+  padding-left: 0;
+  border-left: none;
 }
 
 .quoteContent cite {
@@ -1279,7 +1283,9 @@ p.divisionLineYellow{
 
 
 
-/* table 1 */
+
+
+/* table 1*/
 .umich-table-row-stripe {
   width: 100%;
   border-collapse: collapse;
@@ -1290,12 +1296,13 @@ p.divisionLineYellow{
   background-color: #00274C; /* UM Blue */
   color: #FFFFFF;
   padding: 0.5em;
-  text-align: left;
+  text-align: center;
 }
 
 .umich-table-row-stripe td {
   padding: 0.5em;
-  border: 1px solid #ccc;
+  border: 2px solid #FFFFFF;
+  text-align: center;
 }
 
 .umich-table-row-stripe tr:nth-child(odd) td {
@@ -1315,19 +1322,21 @@ p.divisionLineYellow{
   width: 100%;
   border-collapse: collapse;
   font-family: inherit;
+  border: 2px solid #FFFFFF;
 }
 
 .umich-table-col-stripe thead th {
   background-color: #00274C; /* UM Blue */
   color: #FFFFFF;
   padding: 0.5em;
-  text-align: left;
+  text-align: center;
 }
 
 .umich-table-col-stripe td {
   padding: 0.5em;
-  border: 1px solid #ccc;
-  color: #212121;
+  border: 2px solid #FFFFFF;
+  color: #000000;
+  text-align: center;
 }
 
 /* Column striping only in tbody */
@@ -1338,6 +1347,7 @@ p.divisionLineYellow{
 .umich-table-col-stripe tbody td:nth-child(even) {
   background-color: #FCF5CE; /* light yellow */
 }
+
 
 
 
