@@ -1371,7 +1371,7 @@ p.divisionLineYellow{
 .ai-accordion-a summary::-webkit-details-marker {
   display: none; /* Remove default marker for full control if needed */
 }
-*/
+
 
 .ai-accordion-a .accordion-content {
   padding: 0.2em 1em; /* reduce from 1em if needed */
