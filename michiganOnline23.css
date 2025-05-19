@@ -916,250 +916,20 @@ p.divisionLineYellow{
     margin-right: 20px;
 }
 
- /* Classic Blockquote Style */
- .classic-quote {
-     border-left: 4px solid #0000CD;
-     padding-left: 20px;
-     font-style: italic;
-     color: #6b6b6b;
- }
+/* Classic Blockquote Style DELETED -  2025-05-19*/
 
+/* Modern Minimalist Style DELETED -  2025-05-19*/
 
- /* Modern Minimalist Style */
- .minimalist-quote {
-     position: relative;
-     text-align: center;
-     font-weight: 300;
-     font-size: 16px;
-     color: #34495e;
- }
+/* Artistic Quote Style DELETED -  2025-05-19*/
 
- .minimalist-quote::before,
- .minimalist-quote::after {
-     content: '"';
-     position: absolute;
-     font-size: 16px;
-     opacity: 0.3;
- }
+/* Vintage Quote Style DELETED -  2025-05-19*/
 
+/*  Buddy Quote - Light Blue - Image on Left DELETED -  2025-05-19*/
 
- /* Artistic Quote Style */
- .artistic-quote {
-     background: linear-gradient(to right, #00274C, #0B57D0);
-     color: white;
-     padding: 25px;
-     border-radius: 15px;
-     position: relative;
-     text-align: center;
- }
+/*  Buddy Quote - Light Blue - Image on right DELETED -  2025-05-19*/
 
- .artistic-quote::before {
-     content: '❝';
-     position: absolute;
-     top: 10px;
-     left: 20px;
-     font-size: 3em;
-     opacity: 0.7;
- }
+/*  Buddy Quote - Light Yellow - Image on Left  DELETED -  2025-05-19*/
 
- .artistic-quote::after {
-     content: '❞';
-     position: absolute;
-     bottom: 10px;
-     right: 20px;
-     font-size: 3em;
-     opacity: 0.7;
- }
-
- /* Vintage Quote Style */
- .vintage-quote {
-     border: 2px dashed #95a5a6;
-     background-color: #ecf0f1;
-     padding: 25px;
-     text-align: center;
-     font-family: 'Georgia', serif;
-     font-style: italic;
-     color: #2c3e50;
-     position: relative;
- }
-
- .vintage-quote .author {
-     display: block;
-     margin-top: 15px;
-     font-size: 0.9em;
-     color: #7f8c8d;
- }
-
- /* Highlight Quote Style */
- .highlight-quote {
-     background-color: #0B57D0;
-     color: white;
-     padding: 25px;
-     border-radius: 10px;
-     position: relative;
-     text-align: center;
-     font-weight: 500;
- }
-
- .highlight-quote::before {
-     content: '✦';
-     position: absolute;
-     top: 10px;
-     left: 20px;
-     color: rgba(255, 255, 255, 0.5);
- }
-
- .highlight-quote::after {
-     content: '✦';
-     position: absolute;
-     bottom: 10px;
-     right: 20px;
-     color: rgba(255, 255, 255, 0.5);
- }
-
- /*  Buddy Quote - Light Blue - Image on Left */
- .quoteBlueLeft {
-     display: flex;
-     flex-direction: column;
-     position: relative;
-     background-color: #40ABD7;
-     padding: 20px;
-     border-radius: 5px;
- }
-
- .quoteBlueLeft p {
-     color: black;
-     font-size: 16px;
-     font-style: italic;
-     margin-bottom: 1rem;
-     margin-left: 120px;
- }
-
- .quoteBlueLeftAuthor {
-     color: black;
-     font-weight: bold;
-     font-size: 18px;
-     margin-top: auto;
-     align-self: flex-end;
- }
-
- .quoteBlueLeft img {
-     float: left;
-     width: 100px;
-     height: auto;
-     position: absolute;
-     top: 50%;
-     transform: translateY(-50%);
-     margin-right: 20px;
- }
-
- /*  Buddy Quote - Light Blue - Image on right */
- .quoteBlueRight {
-     display: flex;
-     flex-direction: column;
-     position: relative;
-     background-color: #40ABD7;
-     padding: 20px;
-     border-radius: 5px;
- }
-
- .quoteBlueRight p {
-     color: black;
-     font-size: 16px;
-     font-style: italic;
-     margin-bottom: 1rem;
-     margin-right: 120px;
- }
-
- .quoteBlueRightAuthor {
-     color: black;
-     font-weight: bold;
-     font-size: 18px;
-     margin-top: auto;
-     align-self: flex-start;
- }
-
- .quoteBlueRight img {
-     float: right;
-     width: 100px;
-     height: auto;
-     position: absolute;
-     top: 50%;
-     right: 20px;
-     transform: translateY(-50%);
- }
-
- /*  Buddy Quote - Light Yellow - Image on Left */
- .quoteYellowLeft {
-     display: flex;
-     flex-direction: column;
-     position: relative;
-     background-color: lightyellow;
-     padding: 20px;
-     border-radius: 5px;
- }
-
- .quoteYellowLeft p {
-     color: black;
-     font-size: 16px;
-     font-style: italic;
-     margin-bottom: 1rem;
-     margin-left: 120px;
- }
-
- .quoteYellowLeftAuthor {
-     color: black;
-     font-weight: bold;
-     font-size: 18px;
-     margin-top: auto;
-     align-self: flex-end;
- }
-
- .quoteYellowLeft img {
-     float: left;
-     width: 100px;
-     height: auto;
-     position: absolute;
-     top: 50%;
-     transform: translateY(-50%);
-     margin-right: 20px;
- }
-
- /*  Buddy Quote - Light Yellow - Image on right */
- .quoteYellowRight {
-     display: flex;
-     flex-direction: column;
-     position: relative;
-     background-color: lightyellow;
-     padding: 20px;
-     border-radius: 5px;
- }
-
- .quoteYellowRight p {
-     color: black;
-     font-size: 16px;
-     font-style: italic;
-     margin-bottom: 1rem;
-     margin-right: 120px;
- }
-
- .quoteYellowRightAuthor {
-     color: black;
-     font-weight: bold;
-     font-size: 18px;
-     margin-top: auto;
-     align-self: flex-start;
- }
-
- .quoteYellowRight img {
-     float: right;
-     width: 100px;
-     height: auto;
-     position: absolute;
-     top: 50%;
-     right: 20px;
-     transform: translateY(-50%);
- }
 
 /* NEW GRADIENT BREAKS - 2025-05-12 */
 
@@ -1168,18 +938,20 @@ p.divisionLineYellow{
 }
 
 .breakBlue{
-    width: 66%;
-    height: 4px;
+    width: 66%; 
+    height: 4px; 
     background: linear-gradient(to right, rgba(0, 39, 76, 0), #00274C, rgba(0, 39, 76, 0)); 
     margin: 0 auto;
 }
 
 .breakYellow{
-    width: 66%;
-    height: 4px;
+    width: 66%; 
+    height: 4px; 
     background: linear-gradient(to right, rgba(255, 203, 5, 0), #FFCB05, rgba(255, 203, 5, 0)); 
     margin: 0 auto;
 }
+
+
 
 
 /* NEW CALL OUT BOXES TEST - 2025-05-13*/
@@ -1221,7 +993,7 @@ p.divisionLineYellow{
 }
 
 
-/* new buddy quotes */
+/* NEW BUDDY QUOTES - DELETED XINTIAN ORIGINAL - REFER TO MICHIGANONLINE22.CSS */
 .quoteBox {
   display: flex;
   align-items: stretch;
@@ -1303,58 +1075,57 @@ p.divisionLineYellow{
 
 
 
-/* table 1*/
-.umich-table-row-stripe {
-  width: 100%;
-  border-collapse: collapse;
-  font-family: inherit;
-}
+/* TABLES SIMPLIFIED DELETED OLD ALTERNATING VERSIONS FROM 22 - 2025-05-19 */
 
-.umich-table-row-stripe th {
-  background-color: #00274C; /* UM Blue */
-  color: #FFFFFF;
-  padding: 0.5em;
+/* table 1 row nth.child() */
+
+.umich-table-row-stripe { 
+  width: 100%; 
+  border-collapse: collapse; 
+  /* font-family: inherit;  */
   text-align: center;
+} 
+ 
+.umich-table-row-stripe th { 
+  background-color: #00274C; /* UM Blue */ 
+  color: #FFFFFF; 
+  padding: 0.5em; 
+} 
+ 
+.umich-table-row-stripe td { 
+  padding: 0.5em; 
+  border: 2px solid #FFFFFF; 
+} 
+ 
+.umich-table-row-stripe tbody tr:nth-child(odd) { 
+  background-color: #D7DEF7; /* light blue */ 
+} 
+ 
+.umich-table-row-stripe tbody tr:nth-child(even) { 
+  background-color: #FCF5CE; /* light yellow */ 
 }
 
-.umich-table-row-stripe td {
-  padding: 0.5em;
-  border: 2px solid #FFFFFF;
-  text-align: center;
-}
 
-.umich-table-row-stripe tr:nth-child(odd) td {
-  background-color: #D7DEF7; /* light blue */
-}
-
-.umich-table-row-stripe tr:nth-child(even) td {
-  background-color: #FCF5CE; /* light yellow */
-}
-
-
-
-
-/* table 2 */
+/* table 2 col nth.child() */
 
 .umich-table-col-stripe {
   width: 100%;
   border-collapse: collapse;
-  font-family: inherit;
-  border: 2px solid #FFFFFF;
+  /* font-family: inherit; */
+  /* border: 2px solid #FFFFFF; */
+  text-align: center;
 }
 
-.umich-table-col-stripe thead th {
+.umich-table-col-stripe th {
   background-color: #00274C; /* UM Blue */
   color: #FFFFFF;
   padding: 0.5em;
-  text-align: center;
 }
 
 .umich-table-col-stripe td {
   padding: 0.5em;
   border: 2px solid #FFFFFF;
   color: #000000;
-  text-align: center;
 }
 
 /* Column striping only in tbody */
@@ -1369,102 +1140,68 @@ p.divisionLineYellow{
 
 
 
-/* accordian a - alternating colors */
-.ai-accordion-a {
-  /*border: 1px solid #c90076;*/
-  margin: 2em 0;
-  font-family: sans-serif;
-}
 
-.ai-accordion-a .accordion-title {
-  background-color: #00274C; /* UM Blue */
-  color: #ffffff;
-  padding: 1em;
-  font-weight: bold;
-  font-size: 1.2em;
-}
+/* ACCORDION UPDATED AND REMOVED ORIGINAL - USING NTH.CHILD - ADDED UMICH */
 
-/* .ai-accordion-a details {
-  border-top: 1px solid #ccc;
-} */
+/* Base accordion styles */
+    .umich-accordion-a,
+    .umich-accordion-b {
+      margin: 2em 0;
+      font-family: sans-serif;
+    }
 
-.ai-accordion-a summary {
-  cursor: pointer;
-  padding: 1em;
-  font-weight: bold;
-  /* list-style: none; */
-}
+    .umich-accordion-a > div:first-child,
+    .umich-accordion-b > div:first-child {
+      background-color: #00274C; /* UM Blue */
+      color: #ffffff;
+      padding: 1em;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
 
-.ai-accordion-a summary::-webkit-details-marker {
-  display: none; /* Remove default marker for full control if needed */
-}
+    details {
+      margin-bottom: 2px;
+    }
 
+    summary {
+      cursor: pointer;
+      padding: 1em;
+      font-weight: bold;
+    }
 
-.ai-accordion-a .accordion-content {
-  padding: 0.2em 1em; /* reduce from 1em if needed */
-  margin: 0;           /* prevent inherited spacing */
-}
+    details > div {
+      padding: 0.2em 1em;
+      margin: 0;
+    }
 
-.ai-accordion-a .blue-row {
-  background-color: #D7DEF7;
-}
+    /* Accordion A - alternating colors */
+    .umich-accordion-a details:nth-of-type(odd) {
+      background-color: #D7DEF7; /* Blue row */
+    }
 
-.ai-accordion-a .yellow-row {
-  background-color: #FCF5CE;
-}
+    .umich-accordion-a details:nth-of-type(even) {
+      background-color: #FCF5CE; /* Yellow row */
+    }
 
-
-
-/* accordion b blue with blue top padding */
-.ai-accordion-b {
-  /*border: 1px solid #c90076;*/
-  margin: 2em 0;
-  font-family: sans-serif;
-}
-
-.ai-accordion-b .accordion-title {
-  background-color: #00274C; /* UM Blue */
-  color: #ffffff;
-  padding: 1em;
-  font-weight: bold;
-  font-size: 1.2em;
-}
-
-.ai-accordion-b .accordion-row {
-  background-color: #D7DEF7;
-  border-top: 4px solid #889DE6; /* Accent border */
-}
-
-.ai-accordion-b summary {
-  cursor: pointer;
-  padding: 1em;
-  font-weight: bold;
-}
-
-.ai-accordion-b .accordion-content {
-  padding: 0.2em 1em; /* reduce from 1em if needed */
-  margin: 0;           /* prevent inherited spacing */
-}
-
-.ai-accordion-a .accordion-row,
-.ai-accordion-b .accordion-row {
-  margin-bottom: 2px; /* Adds 2px space between each item */
-}
+    /* Accordion B */
+    .umich-accordion-b details {
+      background-color: #D7DEF7;
+      border-top: 4px solid #889DE6;
+    }
 
 
-/* note about paragraph martin options */
+
+/*  2025-05-19
+testing revert pre font back to default
+all: revert; resets all properties to the user-agent or stylesheet default.
+Follow up with font-family: monospace; to ensure cross-browser consistency.
+*/
 
 
-/* Fix: Remove the default top margin on <p>
-Add this CSS rule:
-.ai-accordion-a .accordion-content p,
-.ai-accordion-b .accordion-content p {
-  margin-top: 0;
-}
+/* holding this for later. 
+https://umich.instructure.com/courses/794703/pages/template-quotes 
+uses wrong font but other pages use correct pre font  */
 
-Optional (tighten spacing further)
-You can also reduce bottom margin:
-.ai-accordion-a .accordion-content p,
-.ai-accordion-b .accordion-content p {
-  margin: 0;
-} */
+/* pre {
+  all: revert;
+ } */
