@@ -1090,13 +1090,14 @@ p.divisionLineYellow{
   background-color: #00274C; /* UM Blue */ 
   color: #FFFFFF; 
   padding: 0.5em; 
-} 
- 
-.umich-table-row-stripe td { 
-  padding: 0.5em; 
-  border: 2px solid #FFFFFF; 
-} 
- 
+}
+
+.umich-table-row-stripe td {
+  padding: 0.5em;
+  border: 2px solid #FFFFFF;
+  color: #000000;
+}
+
 .umich-table-row-stripe tbody tr:nth-child(odd) { 
   background-color: #D7DEF7; /* light blue */ 
 } 
@@ -1186,7 +1187,7 @@ p.divisionLineYellow{
     /* Accordion B */
     .umich-accordion-b details {
       background-color: #D7DEF7;
-      border-top: 4px solid #889DE6;
+      border-top: 4px solid #305CDE;
     }
 
 
@@ -1205,3 +1206,23 @@ uses wrong font but other pages use correct pre font  */
 /* pre {
   all: revert;
  } */
+
+
+@media (prefers-color-scheme: dark) {
+
+    .canvasPageCon h2{
+    color: #17ea00;
+    /* font-weight: bold;
+    font-size: 1.76rem;
+    text-align: left;
+    font-family: "Atkinson Hyperlegible", Arial; */
+    }
+
+  .pageBody h2 {
+    color: #fff000;
+    /* font-weight: bold;
+    font-size: 1.76rem;
+    text-align: left;
+    font-family: "Atkinson Hyperlegible", Arial; */
+    }
+}
