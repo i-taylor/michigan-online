@@ -1181,19 +1181,20 @@ uses wrong font but other pages use correct pre font  */
 
 @media (prefers-color-scheme: dark) {
 
-    .canvasPageCon h2{
+    /* this changed the course title on homepage to green */
+    /* .canvasPageCon h2{
     color: #17ea00;
-    /* font-weight: bold;
+    font-weight: bold;
     font-size: 1.76rem;
     text-align: left;
-    font-family: "Atkinson Hyperlegible", Arial; */
-    }
+    font-family: "Atkinson Hyperlegible", Arial;
+    } */
 
-  .pageBody h2 {
+  /* .pageBody h2 {
     color: #fff000;
-    /* font-weight: bold;
+    font-weight: bold;
     font-size: 1.76rem;
     text-align: left;
-    font-family: "Atkinson Hyperlegible", Arial; */
-    }
+    font-family: "Atkinson Hyperlegible", Arial;
+    } */
 }
