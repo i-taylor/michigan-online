@@ -969,6 +969,8 @@ p.divisionLineYellow{
   width: 100%;
   margin: 2em 0;
   font-family: "noto serif", Arial;
+  color: #000000; 
+  /* added color black because of dark mode 2025-05-23*/
 }
 
 .imgWrapper {
@@ -1009,12 +1011,16 @@ p.divisionLineYellow{
   margin: 0 0 10px 0;
   padding-left: 0;
   border-left: none;
+  /* color: #000000;  */
+  /* added color black because of dark mode 2025-05-23*/
 }
 
 .quoteContent cite {
   font-style: italic;
   font-size: 0.9em;
   display: block;
+  /* color: #000000;  */
+  /* added color black because of dark mode 2025-05-23*/
 }
 
 /* Background colors */
@@ -1057,8 +1063,8 @@ p.divisionLineYellow{
  
 .umich-table-row-stripe th { 
   background-color: #00274C; /* UM Blue */ 
-  color: #FFFFFF;
-  padding: 0.5em;
+  color: #FFFFFF; 
+  padding: 0.5em; 
 }
 
 .umich-table-row-stripe td {
@@ -1118,6 +1124,8 @@ p.divisionLineYellow{
     .umich-accordion-b {
       margin: 2em 0;
       font-family: sans-serif;
+    color: #000000; 
+    /* added color black because of dark mode 2025-05-23*/
     }
 
     .umich-accordion-a > div:first-child,
@@ -1198,3 +1206,4 @@ uses wrong font but other pages use correct pre font  */
     font-family: "Atkinson Hyperlegible", Arial;
     } */
 }
+

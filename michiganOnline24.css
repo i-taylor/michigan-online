@@ -962,8 +962,9 @@ p.divisionLineYellow{
     gap: 20px;
     justify-content: flex-start; /* default */
       align-items: flex-start; /* Prevents height equalization */
-
-  margin-top: 10px;
+    margin-top: 10px;
+    color: #000000; 
+    /* added color black because of dark mode 2025-05-23*/
 }
 
 /* Center the callout if there’s only one */
@@ -1000,6 +1001,8 @@ p.divisionLineYellow{
   width: 100%;
   margin: 2em 0;
   font-family: "noto serif", Arial;
+  color: #000000; 
+  /* added color black because of dark mode 2025-05-23*/
 }
 
 .imgWrapper {
@@ -1040,12 +1043,16 @@ p.divisionLineYellow{
   margin: 0 0 10px 0;
   padding-left: 0;
   border-left: none;
+  /* color: #000000;  */
+  /* added color black because of dark mode 2025-05-23*/
 }
 
 .quoteContent cite {
   font-style: italic;
   font-size: 0.9em;
   display: block;
+  /* color: #000000;  */
+  /* added color black because of dark mode 2025-05-23*/
 }
 
 /* Background colors */
@@ -1149,6 +1156,8 @@ p.divisionLineYellow{
     .umich-accordion-b {
       margin: 2em 0;
       font-family: sans-serif;
+    color: #000000; 
+    /* added color black because of dark mode 2025-05-23*/
     }
 
     .umich-accordion-a > div:first-child,
@@ -1208,6 +1217,8 @@ uses wrong font but other pages use correct pre font  */
  } */
 
 
+
+
 @media (prefers-color-scheme: dark) {
 
     /* this changed the course title on homepage to green */
@@ -1227,3 +1238,4 @@ uses wrong font but other pages use correct pre font  */
     font-family: "Atkinson Hyperlegible", Arial;
     } */
 }
+
