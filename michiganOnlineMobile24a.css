@@ -931,8 +931,9 @@ p.divisionLineYellow{
     gap: 20px;
     justify-content: flex-start; /* default */
       align-items: flex-start; /* Prevents height equalization */
-
-  margin-top: 10px;
+    margin-top: 10px;
+    color: #000000; 
+    /* added color black because of dark mode 2025-05-23*/
 }
 
 /* Center the callout if there’s only one */
@@ -946,6 +947,11 @@ p.divisionLineYellow{
     border-top: 5px solid #305CDE;
     padding: 20px;
     box-sizing: border-box;
+}
+
+.sideBySideCallOut p, .sideBySideCallOut h2 {
+    color: #000000; 
+    /* added color black because of dark mode 2025-05-23*/
 }
 
 /* Responsive stacking for narrower viewports */
@@ -1167,6 +1173,14 @@ p.divisionLineYellow{
       border-top: 4px solid #305CDE;
     }
 
+    /* paragraphs in accordians  2025-05-23 may be able to do .umich-accordion-a 
+    .umich-accordion-a details > div > p,
+    .umich-accordion-b details > div > p
+    will target specifically the <p> after details in the child div */
+    .umich-accordion-a p,
+    .umich-accordion-b p {
+    color: #000000; 
+    }
 
 
 /*  2025-05-19
