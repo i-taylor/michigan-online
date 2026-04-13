@@ -1,0 +1,22 @@
+{
+  "name": "canvas-css",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf site",
+    "build:css": "mkdir -p site/css && lessc src/less/canvas-style.less site/css/canvas-style.css",
+    "build:assets": "mkdir -p site/assets && cp -R src/assets/. site/assets/",
+    "build:html": "cp demo/*.html site/",
+    "build": "npm run clean && npm run build:css && npm run build:assets && npm run build:html",
+    "watch:css": "chokidar 'src/less/**/*.less' -c 'npm run build:css'",
+    "watch:assets": "chokidar 'src/assets/**/*' -c 'npm run build:assets'",
+    "watch:html": "chokidar 'demo/**/*.html' -c 'npm run build:html'",
+    "serve": "browser-sync start --server site --files 'site/**/*'",
+    "dev": "npm run build && concurrently \"npm:watch:css\" \"npm:watch:assets\" \"npm:watch:html\" \"npm:serve\""
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "chokidar-cli": "^3.0.0",
+    "concurrently": "^9.0.0",
+    "less": "^4.2.0"
+  }
+}
