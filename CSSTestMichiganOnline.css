@@ -325,7 +325,7 @@ a.external:active span {
   border-right-color: #00274C;
 }
 .new-canvas table td {
-  padding: 1rem;
+  padding: 1rem !important;
   border: 1px solid #305CDE;
 }
 .new-canvas table.alternate-rows tbody tr {
