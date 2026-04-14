@@ -301,6 +301,9 @@ a.external:active span {
 .new-canvas section {
   box-sizing: border-box;
 }
+.new-canvas .table-container {
+  overflow-x: scroll;
+}
 .new-canvas table {
   background-color: #ffffff;
   width: 100%;
