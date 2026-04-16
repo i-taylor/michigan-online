@@ -878,7 +878,7 @@ a.external:active span {
   margin-top: 20px;
 }
 .pageBody .header img {
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 /* Landing Page Styles */
 .landingPageHeader {
