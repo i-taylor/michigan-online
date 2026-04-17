@@ -762,6 +762,9 @@ a.external:active span {
 .new-canvas .callout-box.action .tag {
   border-color: #ffffff;
 }
+.new-canvas .callout-box.action li::marker {
+  color: #59B5F7;
+}
 .new-canvas .callout-box.highlight {
   background-color: #305CDE;
   color: #ffffff;
@@ -769,6 +772,9 @@ a.external:active span {
 }
 .new-canvas .callout-box.highlight .tag {
   border-color: #ffffff;
+}
+.new-canvas .callout-box.highlight li::marker {
+  color: #ffffff;
 }
 .sophia-says {
   background-color: pink;
@@ -878,7 +884,7 @@ a.external:active span {
   margin-top: 20px;
 }
 .pageBody .header img {
-  /* border-radius: 50%; */
+  border-radius: 50%;
 }
 /* Landing Page Styles */
 .landingPageHeader {
@@ -976,9 +982,9 @@ a.external:active span {
   font-weight: bold;
   font-size: 18px;
   text-decoration: none !important;
-  background-color: #0B57D0;
-  border-top: 3px solid #58B5F7;
-  color: white;
+  background-color: #f542bf;
+  border-top: 3px solid #87f542;
+  color: blue;
   flex: 1 1 20%;
   white-space: normal;
   transition-duration: 0.4s;
