@@ -130,8 +130,7 @@ a.external:active span {
 .new-canvas p,
 .new-canvas ul,
 .new-canvas ol,
-.new-canvas table,
-.new-canvas caption {
+.new-canvas table {
   font-family: "Atkinson Hyperlegible Next", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5rem;
@@ -142,8 +141,7 @@ a.external:active span {
   .new-canvas p,
   .new-canvas ul,
   .new-canvas ol,
-  .new-canvas table,
-  .new-canvas caption {
+  .new-canvas table {
     font-size: 18px;
   }
 }
@@ -151,68 +149,56 @@ a.external:active span {
 .new-canvas ul b,
 .new-canvas ol b,
 .new-canvas table b,
-.new-canvas caption b,
 .new-canvas p strong,
 .new-canvas ul strong,
 .new-canvas ol strong,
-.new-canvas table strong,
-.new-canvas caption strong {
+.new-canvas table strong {
   font-weight: 700;
 }
 .new-canvas p b i,
 .new-canvas ul b i,
 .new-canvas ol b i,
 .new-canvas table b i,
-.new-canvas caption b i,
 .new-canvas p strong i,
 .new-canvas ul strong i,
 .new-canvas ol strong i,
 .new-canvas table strong i,
-.new-canvas caption strong i,
 .new-canvas p b em,
 .new-canvas ul b em,
 .new-canvas ol b em,
 .new-canvas table b em,
-.new-canvas caption b em,
 .new-canvas p strong em,
 .new-canvas ul strong em,
 .new-canvas ol strong em,
-.new-canvas table strong em,
-.new-canvas caption strong em {
+.new-canvas table strong em {
   font-style: italic;
 }
 .new-canvas p i,
 .new-canvas ul i,
 .new-canvas ol i,
 .new-canvas table i,
-.new-canvas caption i,
 .new-canvas p em,
 .new-canvas ul em,
 .new-canvas ol em,
-.new-canvas table em,
-.new-canvas caption em {
+.new-canvas table em {
   font-style: italic;
 }
 .new-canvas p i b,
 .new-canvas ul i b,
 .new-canvas ol i b,
 .new-canvas table i b,
-.new-canvas caption i b,
 .new-canvas p em b,
 .new-canvas ul em b,
 .new-canvas ol em b,
 .new-canvas table em b,
-.new-canvas caption em b,
 .new-canvas p i strong,
 .new-canvas ul i strong,
 .new-canvas ol i strong,
 .new-canvas table i strong,
-.new-canvas caption i strong,
 .new-canvas p em strong,
 .new-canvas ul em strong,
 .new-canvas ol em strong,
-.new-canvas table em strong,
-.new-canvas caption em strong {
+.new-canvas table em strong {
   font-weight: 700;
 }
 .new-canvas a {
@@ -790,12 +776,14 @@ a.external:active span {
 .new-canvas .callout-box.highlight li::marker {
   color: #ffffff;
 }
-.new-canvas .img-caption img,
-.new-canvas .img-caption caption {
-  display: block;
+.new-canvas .img-caption {
   width: 100%;
   max-width: 850px;
   margin: 2rem auto;
+}
+.new-canvas .img-caption img {
+  display: block;
+  width: 100%;
 }
 .new-canvas .img-caption img.rounded-corners {
   border-radius: 20px;
