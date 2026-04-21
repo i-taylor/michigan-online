@@ -788,6 +788,70 @@ a.external:active span {
 .new-canvas .img-caption img.rounded-corners {
   border-radius: 20px;
 }
+.new-canvas .two-col {
+  margin: 2rem auto;
+}
+@media screen and (min-width: 800px) {
+  .new-canvas .two-col {
+    display: flex;
+  }
+}
+.new-canvas .two-col > div {
+  padding: 2rem;
+}
+@media screen and (min-width: 800px) {
+  .new-canvas .two-col > div {
+    width: 50%;
+  }
+}
+.new-canvas .two-col > div h4 {
+  margin-top: 0;
+}
+.new-canvas .two-col > div img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.new-canvas .two-col.text-text {
+  border: 2px solid #305CDE;
+}
+.new-canvas .two-col.text-text > div:last-of-type {
+  border-top: 2px solid #305CDE;
+}
+@media screen and (min-width: 800px) {
+  .new-canvas .two-col.text-text > div:last-of-type {
+    border-top: none;
+    border-left: 2px solid #305CDE;
+  }
+}
+.new-canvas .two-col.text-text.maize > div:last-of-type {
+  background-color: #FFCB05;
+}
+.new-canvas .two-col.text-img > div:first-of-type {
+  background-color: #def0fd;
+}
+.new-canvas .two-col.text-img > div:last-of-type {
+  padding: 0;
+}
+.new-canvas .two-col.text-img.dark {
+  color: #ffffff;
+}
+.new-canvas .two-col.text-img.dark > div:first-of-type {
+  background-color: #00274C;
+}
+.new-canvas .two-col.text-img.dark li::marker {
+  color: #59B5F7;
+}
+.new-canvas .two-col.text-img.highlight {
+  color: #ffffff;
+}
+.new-canvas .two-col.text-img.highlight > div:first-of-type {
+  background-color: #305CDE;
+}
+.new-canvas .two-col.text-img.highlight li::marker {
+  color: #ffffff;
+}
 .sophia-says {
   background-color: pink;
   padding: 1rem;
@@ -896,7 +960,7 @@ a.external:active span {
   margin-top: 20px;
 }
 .pageBody .header img {
-  /* border-radius: 50%; */
+  border-radius: 50%;
 }
 /* Landing Page Styles */
 .landingPageHeader {
@@ -994,9 +1058,9 @@ a.external:active span {
   font-weight: bold;
   font-size: 18px;
   text-decoration: none !important;
-  background-color: #0B57D0;
-  border-top: 3px solid #58B5F7;
-  color: white;
+  background-color: #f542bf;
+  border-top: 3px solid #87f542;
+  color: blue;
   flex: 1 1 20%;
   white-space: normal;
   transition-duration: 0.4s;
