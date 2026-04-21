@@ -1,0 +1,18 @@
+{
+  "name": "canvas-css",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build:css": "mkdir -p build/dist && lessc --clean-css src/less/canvas-style.less build/dist/canvas-style.css && cp -r src/assets build/dist/assets",
+    "build:css:staging": "mkdir -p build/staging && lessc --clean-css src/less/canvas-style.less build/staging/canvas-style.css && cp -r src/assets build/staging/assets",
+    "build:cookbook": "vite build",
+    "build": "npm run build:css && npm run build:cookbook"
+  },
+  "devDependencies": {
+    "glob": "^13.0.6",
+    "less": "^4.6.4",
+    "less-plugin-clean-css": "^1.5.1",
+    "vite": "^8.0.9"
+  }
+}
