@@ -1,0 +1,101 @@
+[
+  {
+    "id": "new-canvas-text-block",
+    "title": "Text Block Section",
+    "description": "Base New Canvas text section container with paragraph styling.",
+    "previewHtml": "<section class=\"text-block\">\n  <p>This whole section (within the top blue border and below grey border) is a <code>&lt;section&gt;</code> tag with a class name of <code>text-block</code>. This will likely be one of the most common UI components.</p>\n  <p>This is sentence within a <code>&lt;paragraph&gt;</code> tag.</p>\n</section>",
+    "snippetHtml": "<section class=\"text-block\">\n  <p>Paragraph text</p>\n  <p>Paragraph text</p>\n</section>",
+    "keywords": "new canvas text block section paragraph container",
+    "category": "Text Blocks"
+  },
+  {
+    "id": "new-canvas-heading-h2",
+    "title": "Heading 2",
+    "description": "Heading level 2 styling inside a New Canvas text block.",
+    "previewHtml": "<section class=\"text-block\">\n  <h2>This is a Heading 2 or &lt;h2&gt; tag</h2>\n  <p>Use this as the primary heading inside the section.</p>\n</section>",
+    "snippetHtml": "<section class=\"text-block\">\n  <h2>Heading 2</h2>\n  <p>Paragraph text</p>\n</section>",
+    "keywords": "new canvas heading h2 text block section title",
+    "category": "Text Blocks"
+  },
+  {
+    "id": "new-canvas-heading-h3",
+    "title": "Heading 3",
+    "description": "Heading level 3 styling with the accent line treatment.",
+    "previewHtml": "<section class=\"text-block\">\n  <h3>This is a Heading 3 or &lt;h3&gt; tag</h3>\n  <p>This is sentence within a <code>&lt;paragraph&gt;</code> tag.</p>\n  <h3>This is a Heading 3 or &lt;h3&gt; tag</h3>\n  <p>This is sentence within a <code>&lt;paragraph&gt;</code> tag.</p>\n  <h3>This is a Heading 3 or &lt;h3&gt; tag</h3>\n  <p>This is sentence within a <code>&lt;paragraph&gt;</code> tag.</p>\n</section>",
+    "snippetHtml": "<section class=\"text-block\">\n  <h3>Heading 3</h3>\n  <p>Paragraph text</p>\n  <h3>Heading 3</h3>\n  <p>Paragraph text</p>\n  <h3>Heading 3</h3>\n  <p>Paragraph text</p>\n</section>",
+    "keywords": "new canvas heading h3 accent line text block",
+    "category": "Text Blocks"
+  },
+  {
+    "id": "new-canvas-heading-h4",
+    "title": "Heading 4",
+    "description": "Heading level 4 styling inside a New Canvas text block.",
+    "previewHtml": "<section class=\"text-block\">\n  <h4>This is a Heading 4 or &lt;h4&gt; tag</h4>\n  <p>This is sentence within a <code>&lt;paragraph&gt;</code> tag.</p>\n</section>",
+    "snippetHtml": "<section class=\"text-block\">\n  <h4>Heading 4</h4>\n  <p>Paragraph text</p>\n</section>",
+    "keywords": "new canvas heading h4 text block",
+    "category": "Text Blocks"
+  },
+  {
+    "id": "new-canvas-callout-info",
+    "title": "Information Callout Box",
+    "description": "Informational callout box for definitions, reminders, and key takeaways.",
+    "previewHtml": "<section class=\"text-block\">\n  <div class=\"callout-box\">\n    <p class=\"tag\">Information</p>\n    <p>Use this type of call-out box for informational instances, such as &quot;definitions&quot; and &quot;key takeaways.&quot;</p>\n  </div>\n</section>",
+    "snippetHtml": "<div class=\"callout-box\">\n  <p class=\"tag\">Tag label</p>\n  <p>Put content here</p>\n</div>",
+    "keywords": "new canvas callout box information tag takeaway definition",
+    "category": "Callout Boxes"
+  },
+  {
+    "id": "new-canvas-callout-action",
+    "title": "Action Callout Box",
+    "description": "Action-oriented callout box for prompts, reflections, and learner tasks.",
+    "previewHtml": "<section class=\"text-block\">\n  <div class=\"callout-box action\">\n    <p class=\"tag\">action</p>\n    <p>Use this type of call-out box for instances where you want the learner to take an action, such as &quot;reflections.&quot;</p>\n  </div>\n</section>",
+    "snippetHtml": "<div class=\"callout-box action\">\n  <p class=\"tag\">Tag label</p>\n  <p>Put content here</p>\n</div>",
+    "keywords": "new canvas callout box action reflection prompt tag",
+    "category": "Callout Boxes"
+  },
+  {
+    "id": "new-canvas-callout-highlight",
+    "title": "Highlight Callout Box",
+    "description": "High-visibility callout box for future warning or emphasis use cases.",
+    "previewHtml": "<section class=\"text-block\">\n  <div class=\"callout-box highlight\">\n    <p class=\"tag\">highlight</p>\n    <p>This type of call-out box is for future use, anticipating situations where we need to warn learners or otherwise be brightly colorful.</p>\n  </div>\n</section>",
+    "snippetHtml": "<div class=\"callout-box highlight\">\n  <p class=\"tag\">Tag label</p>\n  <p>Put content here</p>\n</div>",
+    "keywords": "new canvas callout box highlight warning emphasis tag",
+    "category": "Callout Boxes"
+  },
+  {
+    "id": "new-canvas-video-block",
+    "title": "Video Block",
+    "description": "Standard lecture block using the New Canvas video block treatment.",
+    "previewHtml": "<section class=\"text-block video-block\">\n  <div class=\"video-tag-wrapper\">\n    <p class=\"tag\">Lecture</p>\n  </div>\n  <h2>This is a Heading 2 or &lt;h2&gt; tag</h2>\n  <p>This is a <code>&lt;section&gt;</code> tag with 2 class names of <code>text-block</code> and <code>video-block</code>. This will likely be one of the most common UI components.</p>\n</section>",
+    "snippetHtml": "<section class=\"text-block video-block\">\n  <div class=\"video-tag-wrapper\">\n    <p class=\"tag\">Lecture</p>\n  </div>\n  <h2>Heading 2</h2>\n  <p>Paragraph text</p>\n</section>",
+    "keywords": "new canvas video block lecture tag text block",
+    "category": "Video Blocks"
+  },
+  {
+    "id": "new-canvas-video-block-highlight",
+    "title": "Guest Lecture Video Block",
+    "description": "Highlighted video block variant for guest lecture content.",
+    "previewHtml": "<section class=\"text-block video-block highlight\">\n  <div class=\"video-tag-wrapper\">\n    <p class=\"tag\">Guest lecture</p>\n  </div>\n  <h2>This is a Heading 2 or &lt;h2&gt; tag</h2>\n  <p>This is a <code>&lt;section&gt;</code> tag with 3 class names of <code>text-block</code>, <code>video-block</code>, and <code>highlight</code>. This will likely be one of the most common UI components.</p>\n</section>",
+    "snippetHtml": "<section class=\"text-block video-block highlight\">\n  <div class=\"video-tag-wrapper\">\n    <p class=\"tag\">Guest lecture</p>\n  </div>\n  <h2>Heading 2</h2>\n  <p>Paragraph text</p>\n</section>",
+    "keywords": "new canvas video block guest lecture highlight",
+    "category": "Video Blocks"
+  },
+  {
+    "id": "new-canvas-video-block-blue",
+    "title": "Blue Video Block",
+    "description": "Blue-tag video block variant for alternate video labeling.",
+    "previewHtml": "<section class=\"text-block video-block blue\">\n  <div class=\"video-tag-wrapper\">\n    <p class=\"tag\">Tag label</p>\n  </div>\n  <h2>This is a Heading 2 or &lt;h2&gt; tag</h2>\n  <p>This is a <code>&lt;section&gt;</code> tag with 3 class names of <code>text-block</code>, <code>video-block</code>, and <code>blue</code>. This will likely be one of the most common UI components.</p>\n</section>",
+    "snippetHtml": "<section class=\"text-block video-block blue\">\n  <div class=\"video-tag-wrapper\">\n    <p class=\"tag\">Tag label</p>\n  </div>\n  <h2>Heading 2</h2>\n  <p>Paragraph text</p>\n</section>",
+    "keywords": "new canvas video block blue tag",
+    "category": "Video Blocks"
+  },
+  {
+    "id": "new-canvas-accordion",
+    "title": "Accordion",
+    "description": "Frequently asked accordion pattern using native details and summary elements.",
+    "previewHtml": "<section class=\"accordion\">\n  <h2>Frequently Asked Accordions</h2>\n  <details>\n    <summary>Accordion Item Title 1</summary>\n    <div>\n      <p>Content for accordion item 1.</p>\n    </div>\n  </details>\n  <details>\n    <summary>Accordion Item Title 2</summary>\n    <div>\n      <p>Content for accordion item 2.</p>\n    </div>\n  </details>\n  <details>\n    <summary>Accordion Item Title 3</summary>\n    <div>\n      <p>Content for accordion item 3.</p>\n    </div>\n  </details>\n</section>",
+    "snippetHtml": "<section class=\"accordion\">\n  <h2>Frequently Asked Accordions</h2>\n  <details>\n    <summary>Accordion Item Title 1</summary>\n    <div>\n      <p>Content for accordion item 1.</p>\n    </div>\n  </details>\n  <details>\n    <summary>Accordion Item Title 2</summary>\n    <div>\n      <p>Content for accordion item 2.</p>\n    </div>\n  </details>\n  <details>\n    <summary>Accordion Item Title 3</summary>\n    <div>\n      <p>Content for accordion item 3.</p>\n    </div>\n  </details>\n</section>",
+    "keywords": "new canvas accordion details summary faq",
+    "category": "Accordions"
+  }
+]
