@@ -791,7 +791,7 @@ a.external:active span {
 .new-canvas .two-col {
   margin: 2rem auto;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1100px) {
   .new-canvas .two-col {
     display: flex;
   }
@@ -799,7 +799,7 @@ a.external:active span {
 .new-canvas .two-col > div {
   padding: 2rem;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1100px) {
   .new-canvas .two-col > div {
     width: 50%;
   }
@@ -819,7 +819,7 @@ a.external:active span {
 .new-canvas .two-col.text-text > div:last-of-type {
   border-top: 2px solid #305CDE;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1100px) {
   .new-canvas .two-col.text-text > div:last-of-type {
     border-top: none;
     border-left: 2px solid #305CDE;
