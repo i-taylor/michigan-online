@@ -52,8 +52,8 @@
 
   <script type="module">
     import { cssUrl, cssInline } from './_assets/lms-css.js'
+    import elements from './new-canvas-elements.json'
 
-    const DATA_URL = 'new-canvas-elements.json'
     const elementsGrid = document.getElementById('elements-grid')
     const previewMap = new Map()
 
@@ -165,18 +165,6 @@
       })
     }
 
-    async function loadElements() {
-      try {
-        const res = await fetch(new URL(DATA_URL, window.location.href))
-        if (!res.ok) throw new Error()
-        const items = await res.json()
-        if (!Array.isArray(items) || !items.length) throw new Error()
-        renderItems(items)
-      } catch {
-        if (elementsGrid) elementsGrid.innerHTML = '<p class="meta">Unable to load New Canvas elements.</p>'
-      }
-    }
-
     // Filter pills
     const filterWrap = document.getElementById('element-filters')
     const activeFilters = new Set()
@@ -239,7 +227,7 @@
       if (e.key === 'Escape' && modal && !modal.hidden) closeModal()
     })
 
-    loadElements()
+    renderItems(elements)
 
     if (import.meta.env.DEV) {
       window.addEventListener('lms-css-update', () => {
