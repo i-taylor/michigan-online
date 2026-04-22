@@ -48,7 +48,7 @@
     "id": "new-canvas-callout-action",
     "title": "Action Callout Box",
     "description": "Action-oriented callout box for prompts, reflections, and learner tasks.",
-    "previewHtml": "<section class=\"text-block\">\n  <div class=\"callout-box action\">\n    <p class=\"tag\">action</p>\n    <p>Use this type of call-out box for instances where you want the learner to take an action, such as &quot;reflections.&quot;</p>\n  </div>\n</section>",
+    "previewHtml": "<section class=\"text-block\">\n  <div class=\"callout-box action\">\n    <p class=\"tag\">action</p>\n    <p>Use this type of call-out box for instances where you want the learner to take an action, such as &quot;reflections.&quot;</p>\n  <a href=\"\">link text</a></div>\n</section>",
     "snippetHtml": "<div class=\"callout-box action\">\n  <p class=\"tag\">Tag label</p>\n  <p>Put content here</p>\n</div>",
     "keywords": "new canvas callout box action reflection prompt tag",
     "category": "Callout Boxes"
@@ -57,7 +57,7 @@
     "id": "new-canvas-callout-highlight",
     "title": "Highlight Callout Box",
     "description": "High-visibility callout box for future warning or emphasis use cases.",
-    "previewHtml": "<section class=\"text-block\">\n  <div class=\"callout-box highlight\">\n    <p class=\"tag\">highlight</p>\n    <p>This type of call-out box is for future use, anticipating situations where we need to warn learners or otherwise be brightly colorful.</p>\n  </div>\n</section>",
+    "previewHtml": "<section class=\"text-block\">\n  <div class=\"callout-box highlight\">\n    <p class=\"tag\">highlight</p>\n    <p>This type of call-out box is for future use, anticipating situations where we need to warn learners or otherwise be brightly colorful.</p>\n  <a href=\"\">link text</a></div>\n</section>",
     "snippetHtml": "<div class=\"callout-box highlight\">\n  <p class=\"tag\">Tag label</p>\n  <p>Put content here</p>\n</div>",
     "keywords": "new canvas callout box highlight warning emphasis tag",
     "category": "Callout Boxes"
