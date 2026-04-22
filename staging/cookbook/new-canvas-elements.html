@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Michigan Online — New Canvas Elements</title>
+  <style>
+    .preview-frame { min-height: 300px; }
+    pre { max-height: calc(1.4em * 10 + 24px); }
+  </style>
+  <script type="module" crossorigin src="./assets/new-canvas-elements-D4nsGS5A.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/nav-BkC2xYCJ.js">
+  <link rel="stylesheet" crossorigin href="./assets/nav-BFDrNk-H.css">
+</head>
+<body data-page="new-canvas-elements.html">
+  <header>
+    <div class="wrap">
+      <h1>Michigan Online — New Canvas Elements</h1>
+      <p>New Canvas components with preview tiles, copy-ready snippets, and fullscreen preview.</p>
+    </div>
+  </header>
+
+  <main>
+    <div id="nav-root">
+      <div id="element-filters" class="filter-pills" aria-label="Element filters">
+        <button class="pill-btn" type="button" data-filter="Text Blocks">Text Blocks</button>
+        <button class="pill-btn" type="button" data-filter="Callout Boxes">Callout Boxes</button>
+        <button class="pill-btn" type="button" data-filter="Video Blocks">Video Blocks</button>
+        <button class="pill-btn" type="button" data-filter="Accordions">Accordions</button>
+      </div>
+    </div>
+
+    <section class="search-results" id="search-results" hidden>
+      <h2>Matches on other pages</h2>
+      <p class="results-empty" id="results-empty">No matches found on other pages.</p>
+      <ul class="results-list" id="results-list"></ul>
+    </section>
+
+    <section class="elements-list" id="elements-grid"></section>
+  </main>
+
+  <div class="modal" id="preview-modal" hidden>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-header">
+        <div class="modal-title" id="modal-title">Preview</div>
+        <button class="modal-close" id="modal-close" type="button" aria-label="Close preview">✕</button>
+      </div>
+      <div class="modal-body">
+        <iframe class="modal-frame" id="modal-frame" title="Fullscreen preview"></iframe>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
