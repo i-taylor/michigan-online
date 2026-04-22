@@ -54,6 +54,15 @@
     "category": "Text Blocks"
   },
   {
+    "id": "new-canvas-graphical-highlight",
+    "title": "Graphical Highlight",
+    "description": "Graphical highlight for emphasizing content, especially on a following course page.",
+    "previewHtml": "<section class=\"graphical-highlight\">\n  <div>\n    <p>Finally, when you have your answers drafted on a separate document, click Next to proceed to the quiz where you will confirm you've thoughtfully answered the questions and receive your grade.</p>\n  </div>\n <div></div></section>",
+    "snippetHtml": "<section class=\"graphical-highlight\">\n  <div>\n    <p>Highlight content</p>\n  </div>\n  <div></div>\n </section>",
+    "keywords": "new canvas graphical highlight emphasis",
+    "category": "Text Blocks"
+  },
+  {
     "id": "new-canvas-callout-info",
     "title": "Information Callout Box",
     "description": "Informational callout box for definitions, reminders, and key takeaways.",
