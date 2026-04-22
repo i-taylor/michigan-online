@@ -1,0 +1,128 @@
+[
+  {
+    "id": "accordion-a",
+    "title": "Accordion A",
+    "description": "Preview + copy/paste snippet.",
+    "previewHtml": "<div class=\"umich-accordion-a\">\n  <div>Accordion A</div>\n  <details>\n    <summary>Item One</summary>\n    <div>\n      <p>Description text for Item One.</p>\n      <ul>\n        <li>does list</li>\n        <li>does list</li>\n      </ul>\n    </div>\n  </details>\n  <details>\n    <summary>Item Two</summary>\n    <div>\n      <p>Description text for Item Two.</p>\n    </div>\n  </details>\n  <details>\n    <summary>Item Three</summary>\n    <div>\n      <p>Description text for Item Three.</p>\n    </div>\n  </details>\n  <details>\n    <summary>Item Four</summary>\n    <div>\n      <p>Description text for Item four.</p>\n    </div>\n  </details>\n</div>",
+    "snippetHtml": "<div class=\"umich-accordion-a\">\n  <div>Accordion A</div>\n  <details>\n    <summary>Item One</summary>\n    <div>\n      <p>Description text for Item One.</p>\n      <ul>\n        <li>does list</li>\n        <li>does list</li>\n      </ul>\n    </div>\n  </details>\n  <details>\n    <summary>Item Two</summary>\n    <div>\n      <p>Description text for Item Two.</p>\n    </div>\n  </details>\n  <details>\n    <summary>Item Three</summary>\n    <div>\n      <p>Description text for Item Three.</p>\n    </div>\n  </details>\n  <details>\n    <summary>Item Four</summary>\n    <div>\n      <p>Description text for Item four.</p>\n    </div>\n  </details>\n</div>",
+    "keywords": "accordion details summary list",
+    "category": "Accordions"
+  },
+  {
+    "id": "accordion-b",
+    "title": "Accordion B",
+    "description": "Preview + copy/paste snippet.",
+    "previewHtml": "<div class=\"umich-accordion-b\">\n  <div>Accordion B</div>\n  <details>\n    <summary>Definition One</summary>\n    <div>\n      <p>This is the description for Dimension 1. You can add more text here as needed.</p>\n    </div>\n  </details>\n  <details>\n    <summary>Definition Two</summary>\n    <div>\n      <p>This is the description for Dimension 2. You can add more text here as needed.</p>\n    </div>\n  </details>\n  <details>\n    <summary>Definition Three</summary>\n    <div>\n      <p>This is the description for Dimension 3. You can add more text here as needed.</p>\n    </div>\n  </details>\n  <details>\n    <summary>Definition Four</summary>\n    <div>\n      <p>This is the description for Dimension 4. You can add more text here as needed.</p>\n    </div>\n  </details>\n</div>",
+    "snippetHtml": "<div class=\"umich-accordion-b\">\n  <div>Accordion B</div>\n  <details>\n    <summary>Definition One</summary>\n    <div>\n      <p>This is the description for Dimension 1. You can add more text here as needed.</p>\n    </div>\n  </details>\n  <details>\n    <summary>Definition Two</summary>\n    <div>\n      <p>This is the description for Dimension 2. You can add more text here as needed.</p>\n    </div>\n  </details>\n  <details>\n    <summary>Definition Three</summary>\n    <div>\n      <p>This is the description for Dimension 3. You can add more text here as needed.</p>\n    </div>\n  </details>\n  <details>\n    <summary>Definition Four</summary>\n    <div>\n      <p>This is the description for Dimension 4. You can add more text here as needed.</p>\n    </div>\n  </details>\n</div>",
+    "keywords": "accordion details summary",
+    "category": "Accordions"
+  },
+  {
+    "id": "table-row-stripe",
+    "title": "Table with Row Striping",
+    "description": "Preview + copy/paste snippet.",
+    "previewHtml": "<table class=\"umich-table-row-stripe\">\n  <thead>\n    <tr>\n      <th>Sample Header</th>\n      <th>Sample Header</th>\n      <th>Sample Header</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n    </tr>\n    <tr>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n    </tr>\n    <tr>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n    </tr>\n    <tr>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n    </tr>\n  </tbody>\n</table>",
+    "snippetHtml": "<table class=\"umich-table-row-stripe\">\n  <thead>\n    <tr>\n      <th>Sample Header</th>\n      <th>Sample Header</th>\n      <th>Sample Header</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n    </tr>\n    <tr>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n    </tr>\n    <tr>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n    </tr>\n    <tr>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n    </tr>\n  </tbody>\n</table>",
+    "keywords": "table row stripe striped",
+    "category": "Tables"
+  },
+  {
+    "id": "table-col-stripe",
+    "title": "Table with Column Striping",
+    "description": "Preview + copy/paste snippet.",
+    "previewHtml": "<table class=\"umich-table-col-stripe\">\n  <thead>\n    <tr>\n      <th>Sample Header</th>\n      <th>Sample Header</th>\n      <th>Sample Header</th>\n      <th>Sample Header</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n    </tr>\n    <tr>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n    </tr>\n    <tr>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n    </tr>\n    <tr>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n    </tr>\n  </tbody>\n</table>",
+    "snippetHtml": "<table class=\"umich-table-col-stripe\">\n  <thead>\n    <tr>\n      <th>Sample Header</th>\n      <th>Sample Header</th>\n      <th>Sample Header</th>\n      <th>Sample Header</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n    </tr>\n    <tr>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n    </tr>\n    <tr>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n    </tr>\n    <tr>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n      <td>Sample text here</td>\n    </tr>\n  </tbody>\n</table>",
+    "keywords": "table column stripe striped",
+    "category": "Tables"
+  },
+  {
+    "id": "side-by-side-callout-a",
+    "title": "Callout A (Simple Callout)",
+    "description": "Preview + copy/paste snippet.",
+    "previewHtml": "<div class=\"sideBySideCallOutCon\">\n  <div class=\"sideBySideCallOut\">\n    <h2>This list is about:</h2>\n    <ul>\n      <li>Sample Text</li>\n      <li>Sample Text</li>\n      <li>Sample Text</li>\n    </ul>\n  </div>\n</div>",
+    "snippetHtml": "<div class=\"sideBySideCallOutCon\">\n  <div class=\"sideBySideCallOut\">\n    <h2>This list is about:</h2>\n    <ul>\n      <li>Sample Text</li>\n      <li>Sample Text</li>\n      <li>Sample Text</li>\n    </ul>\n  </div>\n</div>",
+    "keywords": "callout side by side list",
+    "category": "Callout Boxes"
+  },
+  {
+    "id": "side-by-side-callout-b",
+    "title": "Callout B (Right Callout, Left Text)",
+    "description": "Preview + copy/paste snippet.",
+    "previewHtml": "<div class=\"sideBySideCallOutCon\">\n  <div class=\"sideBySideCallOut neutralCallout\" style=\"background: none; border-top: none;\">\n    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>\n  </div>\n  <div class=\"sideBySideCallOut\">\n    <h2>This list is about:</h2>\n    <ul>\n      <li>Sample Text</li>\n      <li>Sample Text</li>\n      <li>Sample Text</li>\n    </ul>\n  </div>\n</div>",
+    "snippetHtml": "<div class=\"sideBySideCallOutCon\">\n  <div class=\"sideBySideCallOut neutralCallout\" style=\"background: none; border-top: none;\">\n    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>\n  </div>\n  <div class=\"sideBySideCallOut\">\n    <h2>This list is about:</h2>\n    <ul>\n      <li>Sample Text</li>\n      <li>Sample Text</li>\n      <li>Sample Text</li>\n    </ul>\n  </div>\n</div>",
+    "keywords": "callout side by side text list",
+    "category": "Callout Boxes"
+  },
+  {
+    "id": "side-by-side-callout-c",
+    "title": "Callout C (Right Text, Left Callout)",
+    "description": "Preview + copy/paste snippet.",
+    "previewHtml": "<div class=\"sideBySideCallOutCon\">\n  <div class=\"sideBySideCallOut\">\n    <h2>This list is about:</h2>\n    <ul>\n      <li>Sample Text</li>\n      <li>Sample Text</li>\n      <li>Sample Text</li>\n    </ul>\n  </div>\n  <div class=\"sideBySideCallOut neutralCallout\" style=\"background: none; border-top: none;\">\n    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>\n  </div>\n</div>",
+    "snippetHtml": "<div class=\"sideBySideCallOutCon\">\n  <div class=\"sideBySideCallOut\">\n    <h2>This list is about:</h2>\n    <ul>\n      <li>Sample Text</li>\n      <li>Sample Text</li>\n      <li>Sample Text</li>\n    </ul>\n  </div>\n  <div class=\"sideBySideCallOut neutralCallout\" style=\"background: none; border-top: none;\">\n    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>\n  </div>\n</div>",
+    "keywords": "callout side by side long text",
+    "category": "Callout Boxes"
+  },
+  {
+    "id": "side-by-side-callout-d",
+    "title": "Callout D (Side-by-side Callout)",
+    "description": "Preview + copy/paste snippet.",
+    "previewHtml": "<div class=\"sideBySideCallOutCon\">\n  <div class=\"sideBySideCallOut\">\n    <h2>This list is about:</h2>\n    <ul>\n      <li>Sample A</li>\n      <li>Sample B</li>\n      <li>Sample B2</li>\n    </ul>\n  </div>\n  <div class=\"sideBySideCallOut\">\n    <h2>This list is about:</h2>\n    <ul>\n      <li>Sample C</li>\n      <li>Sample D</li>\n    </ul>\n  </div>\n</div>",
+    "snippetHtml": "<div class=\"sideBySideCallOutCon\">\n  <div class=\"sideBySideCallOut\">\n    <h2>This list is about:</h2>\n    <ul>\n      <li>Sample A</li>\n      <li>Sample B</li>\n      <li>Sample B2</li>\n    </ul>\n  </div>\n  <div class=\"sideBySideCallOut\">\n    <h2>This list is about:</h2>\n    <ul>\n      <li>Sample C</li>\n      <li>Sample D</li>\n    </ul>\n  </div>\n</div>",
+    "keywords": "callout side by side two lists",
+    "category": "Callout Boxes"
+  },
+  {
+    "id": "page-blue-header",
+    "title": "Blue Header (Top of Page)",
+    "description": "Blue page header bar.",
+    "previewHtml": "<div class=\"bluePageHeader\">&nbsp;</div>",
+    "snippetHtml": "<div class=\"bluePageHeader\">&nbsp;</div>",
+    "keywords": "blue header top page bluePageHeader",
+    "category": "Page Elements"
+  },
+  {
+    "id": "page-blue-gradient-break",
+    "title": "Blue Gradient Break (DIV)",
+    "description": "Blue gradient divider to break up text.",
+    "previewHtml": "<div style=\"padding: 30px 0;\">\n  <div style=\"width: 66%; height: 4px; background: linear-gradient(to right, rgba(0, 39, 76, 0), #00274C, rgba(0, 39, 76, 0)); margin: 0 auto;\">&nbsp;</div>\n</div>",
+    "snippetHtml": "<div style=\"padding: 30px 0;\">\n  <div style=\"width: 66%; height: 4px; background: linear-gradient(to right, rgba(0, 39, 76, 0), #00274C, rgba(0, 39, 76, 0)); margin: 0 auto;\">&nbsp;</div>\n</div>",
+    "keywords": "blue gradient break divider line",
+    "category": "Page Elements"
+  },
+  {
+    "id": "page-yellow-gradient-break",
+    "title": "Yellow Gradient Break (DIV)",
+    "description": "Yellow gradient divider to break up text.",
+    "previewHtml": "<div style=\"padding: 30px 0;\">\n  <div style=\"width: 66%; height: 4px; background: linear-gradient(to right, rgba(255, 203, 5, 0), #FFCB05, rgba(255, 203, 5, 0)); margin: 0 auto;\">&nbsp;</div>\n</div>",
+    "snippetHtml": "<div style=\"padding: 30px 0;\">\n  <div style=\"width: 66%; height: 4px; background: linear-gradient(to right, rgba(255, 203, 5, 0), #FFCB05, rgba(255, 203, 5, 0)); margin: 0 auto;\">&nbsp;</div>\n</div>",
+    "keywords": "yellow gradient break divider line",
+    "category": "Page Elements"
+  },
+  {
+    "id": "page-content-warning",
+    "title": "Content Warning Call-Out",
+    "description": "High-visibility content note box.",
+    "previewHtml": "<div style=\"background-color: #1d4ed8; border-top: 6px solid #60a5fa; padding: 20px; margin: 30px 0; color: white; font-family: Arial;\">\n  <h2 style=\"margin-top: 0; color: white;\">Content Note:</h2>\n  <ul>\n    <li>The following video contains [add details here]. [Notes on how to proceed if uncomfortable]</li>\n  </ul>\n</div>",
+    "snippetHtml": "<div style=\"background-color: #1d4ed8; border-top: 6px solid #60a5fa; padding: 20px; margin: 30px 0; color: white; font-family: Arial;\">\n  <h2 style=\"margin-top: 0; color: white;\">Content Note:</h2>\n  <ul>\n    <li>The following video contains [add details here]. [Notes on how to proceed if uncomfortable]</li>\n  </ul>\n</div>",
+    "keywords": "content warning note callout alert",
+    "category": "Page Elements"
+  },
+  {
+    "id": "page-quote-callout",
+    "title": "Quote Call-Out Box",
+    "description": "Quote with attribution styling.",
+    "previewHtml": "<div class=\"quote divisionLineYellow divisionLineYellowTop\">\n  <p style=\"color: #6b6b6b;\">\"Text inside a quote - put your quote here\"</p>\n  <h3>Quote Attribution - Quote author</h3>\n</div>",
+    "snippetHtml": "<div class=\"quote divisionLineYellow divisionLineYellowTop\">\n  <p style=\"color: #6b6b6b;\">\"Text inside a quote - put your quote here\"</p>\n  <h3>Quote Attribution - Quote author</h3>\n</div>",
+    "keywords": "quote callout attribution divisionLineYellow",
+    "category": "Page Elements"
+  },
+  {
+    "id": "page-landing-footer",
+    "title": "Footer Text and Image",
+    "description": "Landing page footer with image and text.",
+    "previewHtml": "<div class=\"landingPageFooter divisionLineYellowTop\">\n  <img role=\"presentation\" src=\"https://shared-files.online.umich.edu/michigan-online/course-images/current/michiganOnline.png\" alt=\"\" width=\"318\" height=\"56\" />\n  <p>A Michigan Online Learning Experience</p>\n</div>",
+    "snippetHtml": "<div class=\"landingPageFooter divisionLineYellowTop\">\n  <img role=\"presentation\" src=\"https://shared-files.online.umich.edu/michigan-online/course-images/current/michiganOnline.png\" alt=\"\" width=\"318\" height=\"56\" />\n  <p>A Michigan Online Learning Experience</p>\n</div>",
+    "keywords": "footer landingPageFooter image text",
+    "category": "Page Elements"
+  }
+]

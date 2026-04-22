@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Michigan Online — New Canvas Elements</title>
+  <script type="module" src="./_assets/lms-css.js"></script>
+  <script type="module" src="./_assets/nav.js"></script>
+  <style>
+    .preview-frame { min-height: 300px; }
+    pre { max-height: calc(1.4em * 10 + 24px); }
+  </style>
+</head>
+<body data-page="new-canvas-elements.html">
+  <header>
+    <div class="wrap">
+      <h1>Michigan Online — New Canvas Elements</h1>
+      <p>New Canvas components with preview tiles, copy-ready snippets, and fullscreen preview.</p>
+    </div>
+  </header>
+
+  <main>
+    <div id="nav-root">
+      <div id="element-filters" class="filter-pills" aria-label="Element filters">
+        <button class="pill-btn" type="button" data-filter="Text Blocks">Text Blocks</button>
+        <button class="pill-btn" type="button" data-filter="Callout Boxes">Callout Boxes</button>
+        <button class="pill-btn" type="button" data-filter="Video Blocks">Video Blocks</button>
+        <button class="pill-btn" type="button" data-filter="Accordions">Accordions</button>
+      </div>
+    </div>
+
+    <section class="search-results" id="search-results" hidden>
+      <h2>Matches on other pages</h2>
+      <p class="results-empty" id="results-empty">No matches found on other pages.</p>
+      <ul class="results-list" id="results-list"></ul>
+    </section>
+
+    <section class="elements-list" id="elements-grid"></section>
+  </main>
+
+  <div class="modal" id="preview-modal" hidden>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-header">
+        <div class="modal-title" id="modal-title">Preview</div>
+        <button class="modal-close" id="modal-close" type="button" aria-label="Close preview">✕</button>
+      </div>
+      <div class="modal-body">
+        <iframe class="modal-frame" id="modal-frame" title="Fullscreen preview"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script type="module">
+    import { cssUrl, cssInline } from './_assets/lms-css.js'
+
+    const DATA_URL = 'new-canvas-elements.json'
+    const elementsGrid = document.getElementById('elements-grid')
+    const previewMap = new Map()
+
+    function escapeHtml(text) {
+      return text
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;').replace(/'/g, '&#39;')
+    }
+
+    function buildPreviewSrcdoc(innerHtml) {
+      const cssTag = cssInline
+        ? `<style>${cssInline}</style>`
+        : cssUrl
+        ? `<link rel="stylesheet" href="${cssUrl}">`
+        : ''
+      return [
+        '<!doctype html><html lang="en"><head><meta charset="utf-8">',
+        '<meta name="viewport" content="width=device-width,initial-scale=1">',
+        cssTag,
+        '<style>body{margin:0;padding:12px;font-family:Arial,sans-serif;background:#fff;}</style>',
+        '</head><body>',
+        '<div class="new-canvas">',
+        innerHtml,
+        '</div>',
+        '</body></html>'
+      ].join('')
+    }
+
+    function renderCard(item) {
+      const snippetId = 'snippet-' + item.id
+      const card = document.createElement('article')
+      card.className = 'card'
+      card.id = item.id
+      card.dataset.search = (item.title + ' ' + (item.keywords || '')).toLowerCase()
+      card.dataset.category = item.category || 'Other'
+
+      const fullBtn = document.createElement('button')
+      fullBtn.className = 'fullscreen'
+      fullBtn.type = 'button'
+      fullBtn.setAttribute('aria-label', 'Fullscreen preview')
+      fullBtn.textContent = '⤢'
+      fullBtn.dataset.previewId = item.id
+      fullBtn.dataset.title = item.title
+
+      const title = document.createElement('h2')
+      title.textContent = item.title
+
+      const meta = document.createElement('p')
+      meta.className = 'meta'
+      meta.textContent = item.description || 'Preview + copy/paste snippet.'
+
+      const preview = document.createElement('div')
+      preview.className = 'preview'
+      const frame = document.createElement('iframe')
+      frame.className = 'preview-frame'
+      frame.title = item.title + ' preview'
+      frame.setAttribute('srcdoc', buildPreviewSrcdoc(item.previewHtml))
+      preview.appendChild(frame)
+
+      const row = document.createElement('div')
+      row.className = 'row'
+      const label = document.createElement('strong')
+      label.textContent = 'Copy/paste snippet'
+      const button = document.createElement('button')
+      button.className = 'copy'
+      button.setAttribute('data-copy', '#' + snippetId)
+      button.textContent = 'Copy'
+      row.appendChild(label)
+      row.appendChild(button)
+
+      const pre = document.createElement('pre')
+      const code = document.createElement('code')
+      code.id = snippetId
+      code.innerHTML = escapeHtml(item.snippetHtml)
+      pre.appendChild(code)
+
+      card.appendChild(fullBtn)
+      card.appendChild(title)
+      card.appendChild(meta)
+      card.appendChild(preview)
+      card.appendChild(row)
+      card.appendChild(pre)
+      previewMap.set(item.id, item.previewHtml || '')
+      return card
+    }
+
+    function renderItems(items) {
+      if (!elementsGrid) return
+      elementsGrid.innerHTML = ''
+      const groups = items.reduce((acc, item) => {
+        const cat = item.category || 'Other'
+        if (!acc[cat]) acc[cat] = []
+        acc[cat].push(item)
+        return acc
+      }, {})
+      Object.keys(groups).forEach((cat) => {
+        const section = document.createElement('section')
+        section.className = 'category-section'
+        section.dataset.category = cat
+        const heading = document.createElement('h2')
+        heading.className = 'section-title'
+        heading.textContent = cat
+        const grid = document.createElement('div')
+        grid.className = 'category-grid'
+        groups[cat].forEach((item) => grid.appendChild(renderCard(item)))
+        section.appendChild(heading)
+        section.appendChild(grid)
+        elementsGrid.appendChild(section)
+      })
+    }
+
+    async function loadElements() {
+      try {
+        const res = await fetch(new URL(DATA_URL, window.location.href))
+        if (!res.ok) throw new Error()
+        const items = await res.json()
+        if (!Array.isArray(items) || !items.length) throw new Error()
+        renderItems(items)
+      } catch {
+        if (elementsGrid) elementsGrid.innerHTML = '<p class="meta">Unable to load New Canvas elements.</p>'
+      }
+    }
+
+    // Filter pills
+    const filterWrap = document.getElementById('element-filters')
+    const activeFilters = new Set()
+
+    function applyFilters() {
+      const cards    = Array.from(document.querySelectorAll('#elements-grid .card'))
+      const sections = Array.from(document.querySelectorAll('#elements-grid .category-section'))
+      const hasFilters = activeFilters.size > 0
+      cards.forEach((card) => {
+        card.style.display = !hasFilters || activeFilters.has(card.dataset.category || 'Other') ? '' : 'none'
+      })
+      sections.forEach((section) => {
+        const cat = section.dataset.category || 'Other'
+        const visible = cards.some((c) => (c.dataset.category || 'Other') === cat && c.style.display !== 'none')
+        section.style.display = visible ? '' : 'none'
+      })
+    }
+
+    if (filterWrap) {
+      filterWrap.addEventListener('click', (e) => {
+        const btn = e.target.closest('[data-filter]')
+        if (!btn) return
+        const value = btn.getAttribute('data-filter')
+        activeFilters.has(value) ? activeFilters.delete(value) : activeFilters.add(value)
+        btn.classList.toggle('active', activeFilters.has(value))
+        applyFilters()
+      })
+    }
+
+    // Modal
+    const modal      = document.getElementById('preview-modal')
+    const modalFrame = document.getElementById('modal-frame')
+    const modalTitle = document.getElementById('modal-title')
+
+    function openModal(html, title) {
+      if (!modal || !modalFrame) return
+      modalTitle.textContent = title || 'Preview'
+      modalFrame.setAttribute('srcdoc', buildPreviewSrcdoc(html))
+      modal.hidden = false
+      document.body.style.overflow = 'hidden'
+    }
+
+    function closeModal() {
+      if (!modal || !modalFrame) return
+      modal.hidden = true
+      modalFrame.setAttribute('srcdoc', '')
+      document.body.style.overflow = ''
+    }
+
+    document.addEventListener('click', (e) => {
+      if (e.target.closest('button.fullscreen')) {
+        const btn = e.target.closest('button.fullscreen')
+        openModal(previewMap.get(btn.dataset.previewId) || '', btn.dataset.title || 'Preview')
+        return
+      }
+      if (e.target.closest('#modal-close') || e.target === modal) closeModal()
+    })
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modal && !modal.hidden) closeModal()
+    })
+
+    loadElements()
+
+    if (import.meta.env.DEV) {
+      window.addEventListener('lms-css-update', () => {
+        document.querySelectorAll('iframe.preview-frame').forEach((iframe) => {
+          const html = previewMap.get(iframe.closest('[id]')?.id)
+          if (html != null) iframe.setAttribute('srcdoc', buildPreviewSrcdoc(html))
+        })
+      })
+    }
+  </script>
+</body>
+</html>

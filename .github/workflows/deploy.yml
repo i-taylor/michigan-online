@@ -1,0 +1,48 @@
+name: Deploy
+on:
+  push:
+    branches: [develop, main]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Set staging CSS URL
+        if: github.ref == 'refs/heads/develop'
+        run: |
+          echo "VITE_LMS_CSS_URL=https://academic-innovation.github.io/canvas-css/staging/canvas-style.css" \
+            > .env.production
+
+      - name: Build CSS (staging paths)
+        if: github.ref == 'refs/heads/develop'
+        run: npm run build:css:staging && npm run build:cookbook
+
+      - name: Build CSS (production paths)
+        if: github.ref == 'refs/heads/main'
+        run: npm run build
+
+      - name: Deploy to staging
+        if: github.ref == 'refs/heads/develop'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          destination_dir: staging
+          keep_files: true
+
+      - name: Deploy to production
+        if: github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          destination_dir: .
+          keep_files: true

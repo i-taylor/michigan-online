@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Michigan Online — Snippet Rules</title>
+  <script type="module" src="./_assets/lms-css.js"></script>
+  <script type="module" src="./_assets/nav.js"></script>
+</head>
+<body data-page="snippets.html">
+  <header>
+    <div class="wrap">
+      <h1>Michigan Online — Snippet Rules</h1>
+      <p>Guidance for consistent, accessible image snippets.</p>
+    </div>
+  </header>
+
+  <main>
+    <div id="nav-root"></div>
+
+    <div class="callout">
+      <div><strong>Standard snippet rules</strong> <span class="pill">decorative images</span></div>
+      <ul>
+        <li>All snippets use: <code>role="presentation"</code>, <code>alt=""</code>, and include explicit <code>width</code>/<code>height</code>, with no trailing <code>&lt;br /&gt;</code>.</li>
+        <li>Base URL: <code>https://shared-files.online.umich.edu/Michigan%20Online/Deployed/</code></li>
+        <li>Course Images: <code>https://shared-files.online.umich.edu/Michigan%20Online/Deployed/Course%20Images/</code></li>
+        <li>Icons: <code>https://shared-files.online.umich.edu/Michigan%20Online/Deployed/Icons/</code></li>
+      </ul>
+    </div>
+
+    <section class="search-results" id="search-results" hidden>
+      <h2>Matches on other pages</h2>
+      <p class="results-empty" id="results-empty">No matches found on other pages.</p>
+      <ul class="results-list" id="results-list"></ul>
+    </section>
+
+    <section class="card" id="snippet-checklist">
+      <h2>Snippet checklist</h2>
+      <p class="meta">Use these every time you add a new image.</p>
+      <ol>
+        <li>Use <code>role="presentation"</code> and <code>alt=""</code> for decorative assets.</li>
+        <li>Include explicit <code>width</code> and <code>height</code> attributes.</li>
+        <li>Use the correct base URL for the image category.</li>
+        <li>Avoid trailing <code>&lt;br /&gt;</code> tags in snippets.</li>
+      </ol>
+      <pre><code>&lt;img role="presentation" src="https://shared-files.online.umich.edu/Michigan%20Online/Deployed/Icons/video.png" alt="" width="84" height="84" /&gt;</code></pre>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Accessibility note:</strong> These assets are treated as decorative. If an image conveys meaning, remove <code>role="presentation"</code> and replace <code>alt=""</code> with meaningful alt text.</p>
+  </footer>
+</body>
+</html>
