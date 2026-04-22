@@ -97,5 +97,14 @@
     "snippetHtml": "<section class=\"accordion\">\n  <h2>Frequently Asked Accordions</h2>\n  <details>\n    <summary>Accordion Item Title 1</summary>\n    <div>\n      <p>Content for accordion item 1.</p>\n    </div>\n  </details>\n  <details>\n    <summary>Accordion Item Title 2</summary>\n    <div>\n      <p>Content for accordion item 2.</p>\n    </div>\n  </details>\n  <details>\n    <summary>Accordion Item Title 3</summary>\n    <div>\n      <p>Content for accordion item 3.</p>\n    </div>\n  </details>\n</section>",
     "keywords": "new canvas accordion details summary faq",
     "category": "Accordions"
+  },
+  {
+    "id": "new-canvas-pull-quote",
+    "title": "Pull Quote",
+    "description": "Pull quote styling for emphasizing key quotes or takeaways from videos.",
+    "previewHtml": "<blockquote>\n  <p>This is a pull quote. Use this to highlight key quotes or takeaways from videos.</p>\n <p>Author</p></blockquote>",
+    "snippetHtml": "<blockquote>\n  <p>Put quote text here</p>\n <p>Put author name here</p></blockquote>",
+    "keywords": "new canvas pull quote blockquote highlight takeaway",
+    "category": "Pull Quotes"
   }
 ]
