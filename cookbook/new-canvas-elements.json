@@ -36,6 +36,24 @@
     "category": "Text Blocks"
   },
   {
+    "id": "new-canvas-text-block-gamut-gallery",
+    "title": "Text Block for introducing Gamut Gallery",
+    "description": "Text block for introducing the Gamut Gallery tool within courses that use it.",
+    "previewHtml": "<section class=\"text-block gamut-intro gallery\">\n  <h2>Instructions: Introduction to the Gamut Gallery</h2>\n <p>This is a text block for introducing the Gamut Gallery.</p>\n</section>",
+    "snippetHtml": "<section class=\"text-block gamut-intro gallery\">\n  <p>Text block content</p>\n</section>",
+    "keywords": "new canvas text block gamut gallery introduction",
+    "category": "Text Blocks"
+  },
+    {
+    "id": "new-canvas-text-block-gamut-workbook",
+    "title": "Text Block for introducing Gamut Workbook",
+    "description": "Text block for introducing the Gamut Workbook tool within courses that use it.",
+    "previewHtml": "<section class=\"text-block gamut-intro workbook\">\n  <h2>Instructions: Introduction to the Gamut Workbook</h2>\n <p>This is a text block for introducing the Gamut Workbook.</p>\n</section>",
+    "snippetHtml": "<section class=\"text-block gamut-intro workbook\">\n  <p>Text block content</p>\n</section>",
+    "keywords": "new canvas text block gamut workbook introduction",
+    "category": "Text Blocks"
+  },
+  {
     "id": "new-canvas-callout-info",
     "title": "Information Callout Box",
     "description": "Informational callout box for definitions, reminders, and key takeaways.",
