@@ -4,6 +4,7 @@ import { globSync } from 'glob'
 
 export default defineConfig({
   root: 'cookbook',
+  base: './',
   css: {
     preprocessorOptions: {
       less: {}
