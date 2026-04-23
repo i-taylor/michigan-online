@@ -45,6 +45,33 @@
     "category": "Text Blocks"
   },
   {
+    "id": "new-canvas-text-block-gamut-gallery",
+    "title": "Text Block for introducing Gamut Gallery",
+    "description": "Text block for introducing the Gamut Gallery tool within courses that use it.",
+    "previewHtml": "<section class=\"text-block gamut-intro gallery\">\n  <h2>Instructions: Introduction to the Gamut Gallery</h2>\n <p>This is a text block for introducing the Gamut Gallery.</p>\n</section>",
+    "snippetHtml": "<section class=\"text-block gamut-intro gallery\">\n  <p>Text block content</p>\n</section>",
+    "keywords": "new canvas text block gamut gallery introduction",
+    "category": "Text Blocks"
+  },
+    {
+    "id": "new-canvas-text-block-gamut-workbook",
+    "title": "Text Block for introducing Gamut Workbook",
+    "description": "Text block for introducing the Gamut Workbook tool within courses that use it.",
+    "previewHtml": "<section class=\"text-block gamut-intro workbook\">\n  <h2>Instructions: Introduction to the Gamut Workbook</h2>\n <p>This is a text block for introducing the Gamut Workbook.</p>\n</section>",
+    "snippetHtml": "<section class=\"text-block gamut-intro workbook\">\n  <p>Text block content</p>\n</section>",
+    "keywords": "new canvas text block gamut workbook introduction",
+    "category": "Text Blocks"
+  },
+  {
+    "id": "new-canvas-graphical-highlight",
+    "title": "Graphical Highlight",
+    "description": "Graphical highlight for emphasizing content, especially on a following course page.",
+    "previewHtml": "<section class=\"graphical-highlight\">\n  <div>\n    <p>Finally, when you have your answers drafted on a separate document, click Next to proceed to the quiz where you will confirm you've thoughtfully answered the questions and receive your grade.</p>\n  </div>\n <div></div></section>",
+    "snippetHtml": "<section class=\"graphical-highlight\">\n  <div>\n    <p>Highlight content</p>\n  </div>\n  <div></div>\n </section>",
+    "keywords": "new canvas graphical highlight emphasis",
+    "category": "Text Blocks"
+  },
+  {
     "id": "new-canvas-callout-info",
     "title": "Information Callout Box",
     "description": "Informational callout box for definitions, reminders, and key takeaways.",
@@ -115,5 +142,14 @@
     "snippetHtml": "<blockquote>\n  <p>Put quote text here</p>\n <p>Put author name here</p></blockquote>",
     "keywords": "new canvas pull quote blockquote highlight takeaway",
     "category": "Pull Quotes"
+  }, 
+  {
+    "id": "new-canvas-instructor", 
+    "title": "Instructor panel", 
+    "description": "Instructor panel for displaying instructor information and photo(s) on the Meet Your Instructors course page.",
+    "previewHtml": "<section> <div class=\"instructor\"> <div> <img src=\"https://courses.online.umich.edu/courses/284/files/9371/preview\" alt=\"Headshot of DR. Victor Strecher\">\n   <h2>Vic Strecher, Ph.D.</h2>\n   <p><strong>Professor, Health Behavior and Health Equity</strong></p>\n                        </div>\n                        <div>\n     <p> <a class=\"inline_disabled\" href=\"https://sph.umich.edu/faculty-profiles/strecher-victor.html\" target=\"_blank\">Dr. Vic Strecher</a>  is a professor at the University of Michigans Schools of Public Health and Medicine.</p> </div> </div> </section>",
+    "snippetHtml": "<section>\n  <div class=\"instructor\">\n   <div>\n    <img src=\"https://courses.online.umich.edu/courses/284/files/9371/preview\" alt=\"Headshot of DR. Victor Strecher\">\n    <h2>Vic Strecher, Ph.D.</h2>\n    <p><strong>Professor, Health Behavior and Health Equity</strong></p>\n   </div>\n   <div>\n    <p>\n      <a class=\"inline_disabled\" href=\"https://sph.umich.edu/faculty-profiles/strecher-victor.html\" target=\"_blank\">Dr. Vic Strecher</a>\n      is a professor at the University of Michigans Schools of Public Health and Medicine.\n    </p>\n   </div>\n  </div>\n</section>",
+    "keywords": "new canvas instructor panel meet your instructors course page",
+    "category": "Cards and Panels"
   }
 ]
