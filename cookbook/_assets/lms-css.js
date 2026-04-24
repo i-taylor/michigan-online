@@ -1,6 +1,16 @@
 export let cssUrl = ''
 export let cssInline = ''
 
+function getFallbackCssUrl() {
+  const { origin, pathname } = window.location
+
+  if (pathname.includes('/staging/')) {
+    return `${origin}/canvas-css/staging/canvas-style.css`
+  }
+
+  return `${origin}/canvas-css/dist/canvas-style.css`
+}
+
 if (import.meta.env.DEV) {
   // Plain import wires up HMR so edits to the LESS update the page's own styles
   await import('../../src/less/canvas-style.less')
@@ -15,9 +25,12 @@ if (import.meta.env.DEV) {
     window.dispatchEvent(new CustomEvent('lms-css-update'))
   })
 } else {
-  cssUrl = import.meta.env.VITE_LMS_CSS_URL
-  const link = document.createElement('link')
-  link.rel = 'stylesheet'
-  link.href = cssUrl
-  document.head.appendChild(link)
+  cssUrl = import.meta.env.VITE_LMS_CSS_URL || getFallbackCssUrl()
+
+  if (cssUrl) {
+    const link = document.createElement('link')
+    link.rel = 'stylesheet'
+    link.href = cssUrl
+    document.head.appendChild(link)
+  }
 }
