@@ -98,6 +98,15 @@
     "keywords": "new canvas callout box highlight warning emphasis tag",
     "category": "Callout Boxes"
   },
+   {
+    "id": "new-canvas-pull-quote",
+    "title": "Pull Quote",
+    "description": "Pull quote styling for emphasizing key quotes or takeaways from videos.",
+    "previewHtml": "<blockquote>\n  <p>This is a pull quote. Use this to highlight key quotes or takeaways from videos.</p>\n <p>Author</p></blockquote>",
+    "snippetHtml": "<blockquote>\n  <p>Put quote text here</p>\n <p>Put author name here</p></blockquote>",
+    "keywords": "new canvas pull quote blockquote highlight takeaway",
+    "category": "Callout Boxes"
+  },
   {
     "id": "new-canvas-video-block",
     "title": "Video Block",
@@ -133,23 +142,32 @@
     "snippetHtml": "<section class=\"accordion\">\n  <h2>Frequently Asked Accordions</h2>\n  <details>\n    <summary>Accordion Item Title 1</summary>\n    <div>\n      <p>Content for accordion item 1.</p>\n    </div>\n  </details>\n  <details>\n    <summary>Accordion Item Title 2</summary>\n    <div>\n      <p>Content for accordion item 2.</p>\n    </div>\n  </details>\n  <details>\n    <summary>Accordion Item Title 3</summary>\n    <div>\n      <p>Content for accordion item 3.</p>\n    </div>\n  </details>\n</section>",
     "keywords": "new canvas accordion details summary faq",
     "category": "Accordions"
-  },
-  {
-    "id": "new-canvas-pull-quote",
-    "title": "Pull Quote",
-    "description": "Pull quote styling for emphasizing key quotes or takeaways from videos.",
-    "previewHtml": "<blockquote>\n  <p>This is a pull quote. Use this to highlight key quotes or takeaways from videos.</p>\n <p>Author</p></blockquote>",
-    "snippetHtml": "<blockquote>\n  <p>Put quote text here</p>\n <p>Put author name here</p></blockquote>",
-    "keywords": "new canvas pull quote blockquote highlight takeaway",
-    "category": "Pull Quotes"
   }, 
   {
     "id": "new-canvas-instructor", 
-    "title": "Instructor panel", 
+    "title": "Instructor Panel", 
     "description": "Instructor panel for displaying instructor information and photo(s) on the Meet Your Instructors course page.",
     "previewHtml": "<section> <div class=\"instructor\"> <div> <img src=\"https://courses.online.umich.edu/courses/284/files/9371/preview\" alt=\"Headshot of DR. Victor Strecher\">\n   <h2>Vic Strecher, Ph.D.</h2>\n   <p><strong>Professor, Health Behavior and Health Equity</strong></p>\n                        </div>\n                        <div>\n     <p> <a class=\"inline_disabled\" href=\"https://sph.umich.edu/faculty-profiles/strecher-victor.html\" target=\"_blank\">Dr. Vic Strecher</a>  is a professor at the University of Michigans Schools of Public Health and Medicine.</p> </div> </div> </section>",
     "snippetHtml": "<section>\n  <div class=\"instructor\">\n   <div>\n    <img src=\"https://courses.online.umich.edu/courses/284/files/9371/preview\" alt=\"Headshot of DR. Victor Strecher\">\n    <h2>Vic Strecher, Ph.D.</h2>\n    <p><strong>Professor, Health Behavior and Health Equity</strong></p>\n   </div>\n   <div>\n    <p>\n      <a class=\"inline_disabled\" href=\"https://sph.umich.edu/faculty-profiles/strecher-victor.html\" target=\"_blank\">Dr. Vic Strecher</a>\n      is a professor at the University of Michigans Schools of Public Health and Medicine.\n    </p>\n   </div>\n  </div>\n</section>",
     "keywords": "new canvas instructor panel meet your instructors course page",
     "category": "Cards and Panels"
+  },
+  {
+    "id": "new-canvas-text-text",
+    "title": "Two-Column Text and Text Block",
+    "description": "Text blocks displayed side by side for comparison or parallel content use cases.",
+    "previewHtml": "<div class=\"two-col text-text\"><div><h4>Without purpose:</h4><ul><li>Your time gets scattered</li><li>Your energy gets diluted</li></ul></div>\n  <div><h4>With purpose:</h4><ul><li>Your decisions become clearer</li><li>Your effort becomes more intentional</li></ul></div></div>",
+    "snippetHtml": "<div class=\"two-col text-text\">\n  <div>\n    <p>Content for the first column.</p>\n  </div>\n  <div>\n    <p>Content for the second column.</p>\n  </div>\n</div>",
+    "keywords": "new canvas text block side by side",
+    "category": "Side by Side Blocks"
+  },
+  {
+    "id": "new-canvas-text-text-light-blue",
+    "title": "Two-Column Text and Text Block with Light Blue Background",
+    "description": "Text blocks displayed side by side for comparison or parallel content use cases.",
+    "previewHtml": "<div class=\"two-col text-text light-blue\"><div><h4>Without purpose:</h4><ul><li>Your time gets scattered</li><li>Your energy gets diluted</li></ul></div>\n  <div><h4>With purpose:</h4><ul><li>Your decisions become clearer</li><li>Your effort becomes more intentional</li></ul></div></div>",
+    "snippetHtml": "<div class=\"two-col text-text light-blue\">\n  <div>\n    <p>Content for the first column.</p>\n  </div>\n  <div>\n    <p>Content for the second column.</p>\n  </div>\n</div>",
+    "keywords": "new canvas text block side by side light blue background",
+    "category": "Side by Side Blocks"
   }
 ]
