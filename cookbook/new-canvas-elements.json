@@ -196,5 +196,32 @@
     "snippetHtml": "<div class=\"two-col text-img highlight\">\n  <div>\n    <p>Text content for the first column. In the second column, replace the image with your own, and ensure that it is properly sized and alt-texted.</p>\n  </div>\n  <div>\n    <img src=\"https://images.unsplash.com/photo-1616017640739-44ce2bfd9b4e?q=80&amp;w=387&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" alt=\"put alternative text here\" width=\"1024\" height=\"1127\" loading=\"lazy\">\n  </div>\n</div>",
     "keywords": "new canvas text block side by side image highlight background",
     "category": "Side by Side Blocks"
+  },
+  {
+    "id": "new-canvas-table",
+    "title": "Table Component",
+    "description": "A component for displaying tabular data.",
+    "previewHtml": "<div class=\"table-container\"><table><thead><tr><th>Sample Header</th><th>Sample Header</th><th>Sample Header</th></tr></thead><tbody><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr></tbody></table></div>",
+    "snippetHtml": "<div class=\"table-container\">\n  <table>\n    <thead>\n      <tr>\n        <th>Sample Header</th>\n        <th>Sample Header</th>\n        <th>Sample Header</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n      </tr>\n      <tr>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n      </tr>\n      <tr>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n      </tr>\n      <tr>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n      </tr>\n    </tbody>\n  </table>\n</div>",
+    "keywords": "new canvas table block",
+    "category": "Tables"
+  },
+  {
+    "id": "new-canvas-table-alternate-rows",
+    "title": "Table Component (Alternate Row Styling)",
+    "description": "A component for displaying tabular data, where you want to alternate the background color of rows.",
+    "previewHtml": "<div class=\"table-container\"><table class=\"alternate-rows\"><thead><tr><th>Sample Header</th><th>Sample Header</th><th>Sample Header</th></tr></thead><tbody><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr></tbody></table></div>",
+    "snippetHtml": "<div class=\"table-container\">\n  <table class=\"alternate-rows\">\n    <thead>\n      <tr>\n        <th>Sample Header</th>\n        <th>Sample Header</th>\n        <th>Sample Header</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n      </tr>\n      <tr>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n      </tr>\n      <tr>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n      </tr>\n      <tr>\n        <td>Sample text here</td>\n        <td>Sample text here</ td>\n        <td> Sample text here </td>\n      </tr>\n    </tbody>\n  </table>\n</div>",
+    "keywords": "new canvas table block",
+    "category": "Tables"
+  },
+  {
+    "id": "new-canvas-table-alternate-columns",
+    "title": "Table Component (Alternate Column Styling)",
+    "description": "A component for displaying tabular data, where you want to alternate the background color of columns.",
+    "previewHtml": "<div class=\"table-container\"><table class=\"alternate-columns\"><thead><tr><th>Sample Header</th><th>Sample Header</th><th>Sample Header</th></tr></thead><tbody><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr></tbody></table></div>",
+    "snippetHtml": "<div class=\"table-container\">\n  <table class=\"alternate-columns\">\n    <thead>\n      <tr>\n        <th>Sample Header</th>\n        <th>Sample Header</th>\n        <th>Sample Header</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n      </tr>\n      <tr>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n      </tr>\n      <tr>\n        <td>Sample text here</td>\n        <td>Sample text here</ td>\n        <td> Sample text here </ td>\n      </tr>\n    </tbody>\n  </table>\n</div>",
+    "keywords": "new canvas table block",
+    "category": "Tables"
   }
 ]
