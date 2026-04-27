@@ -189,6 +189,24 @@
     "category": "Side by Side Blocks"
   },
   {
+    "id": "new-canvas-img-caption",
+    "title": "Image with Sharp Corners",
+    "description": "Image block with caption text underneath.",
+    "previewHtml": "<div class=\"img-caption\">\n  <img src=\"https://courses.online.umich.edu/courses/284/files/9355/preview\" alt=\"Course-Image-Placeholder.jpg\" loading=\"lazy\">\n  <p><em>Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners.</em></p>\n</div>",
+    "snippetHtml": "<div class=\"img-caption\">\n  <img src=\"https://courses.online.umich.edu/courses/284/files/9355/preview\" alt=\"Course-Image-Placeholder.jpg\" loading=\"lazy\">\n  <p><em>Put caption text here</em></p>\n</div>",
+    "keywords": "new canvas image block caption",
+    "category": "Images with Captions"
+  },
+  {
+    "id": "new-canvas-img-caption-rounded-corners",
+    "title": "Image with Rounded Corners",
+    "description": "Image block with caption text underneath.",
+    "previewHtml": "<div class=\"img-caption\">\n  <img src=\"https://courses.online.umich.edu/courses/284/files/9355/preview\" class=\"rounded-corners\" alt=\"Course-Image-Placeholder.jpg\" loading=\"lazy\">\n  <p><em>Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners.</em></p>\n</div>",
+    "snippetHtml": "<div class=\"img-caption\">\n  <img src=\"https://courses.online.umich.edu/courses/284/files/9355/preview\" class=\"rounded-corners\" alt=\"Course-Image-Placeholder.jpg\" loading=\"lazy\">\n  <p><em>Put caption text here</em></p>\n</div>",
+    "keywords": "new canvas image block caption",
+    "category": "Images with Captions"
+  },
+  {
     "id": "new-canvas-text-img-highlight",
     "title": "Two-Column Text and Image Block (Highlight)",
     "description": "Text and image blocks displayed side by side with a highlight background.",
