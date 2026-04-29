@@ -351,10 +351,10 @@ a.external:active span {
     
     section {
         border-bottom: @line-thin solid @neutral-border; 
-        padding: 2rem 1rem;
+        padding: 2rem 0;
         
         @media @tablet {
-            padding: 4rem 1rem;
+            padding: 4rem 0;
         }
     
         &.text-block {
@@ -412,6 +412,8 @@ a.external:active span {
         
         &.video-block {
             background-color: @yellow-extra-light;
+            padding-right: 2rem;
+            padding-left: 2rem;
             
             @media @tablet {
                 padding-top: 2rem;
@@ -419,6 +421,15 @@ a.external:active span {
             
             h2 {
                 text-align: center;
+            }
+
+            p {
+                max-width: 850px;
+                margin: 1rem auto;
+            }
+
+            .tag {
+                margin: 0;
             }
             
             iframe {
