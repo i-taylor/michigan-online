@@ -98,9 +98,18 @@
     "keywords": "new canvas callout box highlight warning emphasis tag",
     "category": "Callout Boxes"
   },
+   {
+    "id": "new-canvas-pull-quote",
+    "title": "Pull Quote",
+    "description": "Pull quote styling for emphasizing key quotes or takeaways from videos.",
+    "previewHtml": "<blockquote>\n  <p>This is a pull quote. Use this to highlight key quotes or takeaways from videos.</p>\n <p>Author</p></blockquote>",
+    "snippetHtml": "<blockquote>\n  <p>Put quote text here</p>\n <p>Put author name here</p></blockquote>",
+    "keywords": "new canvas pull quote blockquote highlight takeaway",
+    "category": "Callout Boxes"
+  },
   {
     "id": "new-canvas-video-block",
-    "title": "Video Block",
+    "title": "Lecture Video Block",
     "description": "Standard lecture block using the New Canvas video block treatment.",
     "previewHtml": "<section class=\"text-block video-block\">\n  <div class=\"video-tag-wrapper\">\n    <p class=\"tag\">Lecture</p>\n  </div>\n  <h2>This is a Heading 2 or &lt;h2&gt; tag</h2>\n  <p>This is a <code>&lt;section&gt;</code> tag with 2 class names of <code>text-block</code> and <code>video-block</code>. This will likely be one of the most common UI components.</p>\n</section>",
     "snippetHtml": "<section class=\"text-block video-block\">\n  <div class=\"video-tag-wrapper\">\n    <p class=\"tag\">Lecture</p>\n  </div>\n  <h2>Heading 2</h2>\n  <p>Paragraph text</p>\n</section>",
@@ -133,23 +142,122 @@
     "snippetHtml": "<section class=\"accordion\">\n  <h2>Frequently Asked Accordions</h2>\n  <details>\n    <summary>Accordion Item Title 1</summary>\n    <div>\n      <p>Content for accordion item 1.</p>\n    </div>\n  </details>\n  <details>\n    <summary>Accordion Item Title 2</summary>\n    <div>\n      <p>Content for accordion item 2.</p>\n    </div>\n  </details>\n  <details>\n    <summary>Accordion Item Title 3</summary>\n    <div>\n      <p>Content for accordion item 3.</p>\n    </div>\n  </details>\n</section>",
     "keywords": "new canvas accordion details summary faq",
     "category": "Accordions"
-  },
-  {
-    "id": "new-canvas-pull-quote",
-    "title": "Pull Quote",
-    "description": "Pull quote styling for emphasizing key quotes or takeaways from videos.",
-    "previewHtml": "<blockquote>\n  <p>This is a pull quote. Use this to highlight key quotes or takeaways from videos.</p>\n <p>Author</p></blockquote>",
-    "snippetHtml": "<blockquote>\n  <p>Put quote text here</p>\n <p>Put author name here</p></blockquote>",
-    "keywords": "new canvas pull quote blockquote highlight takeaway",
-    "category": "Pull Quotes"
   }, 
   {
     "id": "new-canvas-instructor", 
-    "title": "Instructor panel", 
+    "title": "Instructor Panel", 
     "description": "Instructor panel for displaying instructor information and photo(s) on the Meet Your Instructors course page.",
     "previewHtml": "<section> <div class=\"instructor\"> <div> <img src=\"https://courses.online.umich.edu/courses/284/files/9371/preview\" alt=\"Headshot of DR. Victor Strecher\">\n   <h2>Vic Strecher, Ph.D.</h2>\n   <p><strong>Professor, Health Behavior and Health Equity</strong></p>\n                        </div>\n                        <div>\n     <p> <a class=\"inline_disabled\" href=\"https://sph.umich.edu/faculty-profiles/strecher-victor.html\" target=\"_blank\">Dr. Vic Strecher</a>  is a professor at the University of Michigans Schools of Public Health and Medicine.</p> </div> </div> </section>",
     "snippetHtml": "<section>\n  <div class=\"instructor\">\n   <div>\n    <img src=\"https://courses.online.umich.edu/courses/284/files/9371/preview\" alt=\"Headshot of DR. Victor Strecher\">\n    <h2>Vic Strecher, Ph.D.</h2>\n    <p><strong>Professor, Health Behavior and Health Equity</strong></p>\n   </div>\n   <div>\n    <p>\n      <a class=\"inline_disabled\" href=\"https://sph.umich.edu/faculty-profiles/strecher-victor.html\" target=\"_blank\">Dr. Vic Strecher</a>\n      is a professor at the University of Michigans Schools of Public Health and Medicine.\n    </p>\n   </div>\n  </div>\n</section>",
     "keywords": "new canvas instructor panel meet your instructors course page",
     "category": "Cards and Panels"
+  },
+  {
+    "id": "new-canvas-text-text",
+    "title": "Two-Column Text and Text Block",
+    "description": "Text blocks displayed side by side for comparison or parallel content use cases.",
+    "previewHtml": "<div class=\"two-col text-text\"><div><h4>Without purpose:</h4><ul><li>Your time gets scattered</li><li>Your energy gets diluted</li></ul></div>\n  <div><h4>With purpose:</h4><ul><li>Your decisions become clearer</li><li>Your effort becomes more intentional</li></ul></div></div>",
+    "snippetHtml": "<div class=\"two-col text-text\">\n  <div>\n    <p>Content for the first column.</p>\n  </div>\n  <div>\n    <p>Content for the second column.</p>\n  </div>\n</div>",
+    "keywords": "new canvas text block side by side",
+    "category": "Side by Side Blocks"
+  },
+  {
+    "id": "new-canvas-text-text-light-blue",
+    "title": "Two-Column Text and Text Block (Light Blue)",
+    "description": "Text blocks displayed side by side for comparison or parallel content use cases.",
+    "previewHtml": "<div class=\"two-col text-text light-blue\"><div><h4>Without purpose:</h4><ul><li>Your time gets scattered</li><li>Your energy gets diluted</li></ul></div>\n  <div><h4>With purpose:</h4><ul><li>Your decisions become clearer</li><li>Your effort becomes more intentional</li></ul></div></div>",
+    "snippetHtml": "<div class=\"two-col text-text light-blue\">\n  <div>\n    <p>Content for the first column.</p>\n  </div>\n  <div>\n    <p>Content for the second column.</p>\n  </div>\n</div>",
+    "keywords": "new canvas text block side by side light blue background",
+    "category": "Side by Side Blocks"
+  },
+  {
+    "id": "new-canvas-text-img",
+    "title": "Two-Column Text and Image Block",
+    "description": "Text and image blocks displayed side by side.",
+    "previewHtml": "<div class=\"two-col text-img\"> <div> <p>Text content for the first column. In the second column, replace the image with your own, and ensure that it is properly sized and alt-texted.</p> </div> <div><img src=\"https://images.unsplash.com/photo-1616017640739-44ce2bfd9b4e?q=80&amp;w=387&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" alt=\"put alternative text here\" width=\"1024\" height=\"1127\" loading=\"lazy\"></div></div>",
+    "snippetHtml": "<div class=\"two-col text-img\">\n  <div>\n    <p>Text content for the first column. In the second column, replace the image with your own, and ensure that it is properly sized and alt-texted.</p>\n  </div>\n  <div>\n    <img src=\"https://images.unsplash.com/photo-1616017640739-44ce2bfd9b4e?q=80&amp;w=387&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" alt=\"put alternative text here\" width=\"1024\" height=\"1127\" loading=\"lazy\">\n  </div>\n</div>",
+    "keywords": "new canvas text block side by side image",
+    "category": "Side by Side Blocks"
+  },
+  {
+    "id": "new-canvas-text-img-dark",
+    "title": "Two-Column Text and Image Block (Dark)",
+    "description": "Text and image blocks displayed side by side with a dark background.",
+    "previewHtml": "<div class=\"two-col text-img dark\"> <div> <p>Text content for the first column. This variation is intended for content that prompts the learner to do something (eg. reflect). In the second column, replace the image with your own, and ensure that it is properly sized and alt-texted.</p> </div> <div><img src=\"https://images.unsplash.com/photo-1616017640739-44ce2bfd9b4e?q=80&amp;w=387&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" alt=\"put alternative text here\" width=\"1024\" height=\"1127\" loading=\"lazy\"></div></div>",
+    "snippetHtml": "<div class=\"two-col text-img dark\">\n  <div>\n    <p>Text content for the first column. In the second column, replace the image with your own, and ensure that it is properly sized and alt-texted.</p>\n  </div>\n  <div>\n    <img src=\"https://images.unsplash.com/photo-1616017640739-44ce2bfd9b4e?q=80&amp;w=387&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" alt=\"put alternative text here\" width=\"1024\" height=\"1127\" loading=\"lazy\">\n  </div>\n</div>",
+    "keywords": "new canvas text block side by side image dark background",
+    "category": "Side by Side Blocks"
+  },
+  {
+    "id": "new-canvas-img-caption",
+    "title": "Image with Sharp Corners",
+    "description": "Image block with caption text underneath.",
+    "previewHtml": "<div class=\"img-caption\">\n  <img src=\"https://courses.online.umich.edu/courses/284/files/9355/preview\" alt=\"Course-Image-Placeholder.jpg\" loading=\"lazy\">\n  <p><em>Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners.</em></p>\n</div>",
+    "snippetHtml": "<div class=\"img-caption\">\n  <img src=\"https://courses.online.umich.edu/courses/284/files/9355/preview\" alt=\"Course-Image-Placeholder.jpg\" loading=\"lazy\">\n  <p><em>Put caption text here</em></p>\n</div>",
+    "keywords": "new canvas image block caption",
+    "category": "Images with Captions"
+  },
+  {
+    "id": "new-canvas-img-caption-rounded-corners",
+    "title": "Image with Rounded Corners",
+    "description": "Image block with caption text underneath.",
+    "previewHtml": "<div class=\"img-caption\">\n  <img src=\"https://courses.online.umich.edu/courses/284/files/9355/preview\" class=\"rounded-corners\" alt=\"Course-Image-Placeholder.jpg\" loading=\"lazy\">\n  <p><em>Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners. Test image; sharp corners.</em></p>\n</div>",
+    "snippetHtml": "<div class=\"img-caption\">\n  <img src=\"https://courses.online.umich.edu/courses/284/files/9355/preview\" class=\"rounded-corners\" alt=\"Course-Image-Placeholder.jpg\" loading=\"lazy\">\n  <p><em>Put caption text here</em></p>\n</div>",
+    "keywords": "new canvas image block caption",
+    "category": "Images with Captions"
+  },
+  {
+    "id": "new-canvas-text-img-highlight",
+    "title": "Two-Column Text and Image Block (Highlight)",
+    "description": "Text and image blocks displayed side by side with a highlight background.",
+    "previewHtml": "<div class=\"two-col text-img highlight\"> <div> <p>Text content for the first column. This variation is intended for a use case where the content needs to stand out more. In the second column, replace the image with your own, and ensure that it is properly sized and alt-texted.</p> </div> <div><img src=\"https://images.unsplash.com/photo-1616017640739-44ce2bfd9b4e?q=80&amp;w=387&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" alt=\"put alternative text here\" width=\"1024\" height=\"1127\" loading=\"lazy\"></div></div>",
+    "snippetHtml": "<div class=\"two-col text-img highlight\">\n  <div>\n    <p>Text content for the first column. In the second column, replace the image with your own, and ensure that it is properly sized and alt-texted.</p>\n  </div>\n  <div>\n    <img src=\"https://images.unsplash.com/photo-1616017640739-44ce2bfd9b4e?q=80&amp;w=387&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" alt=\"put alternative text here\" width=\"1024\" height=\"1127\" loading=\"lazy\">\n  </div>\n</div>",
+    "keywords": "new canvas text block side by side image highlight background",
+    "category": "Side by Side Blocks"
+  },
+  {
+    "id": "new-canvas-table",
+    "title": "Table Component",
+    "description": "A component for displaying tabular data.",
+    "previewHtml": "<div class=\"table-container\"><table><thead><tr><th>Sample Header</th><th>Sample Header</th><th>Sample Header</th></tr></thead><tbody><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr></tbody></table></div>",
+    "snippetHtml": "<div class=\"table-container\">\n  <table>\n    <thead>\n      <tr>\n        <th>Sample Header</th>\n        <th>Sample Header</th>\n        <th>Sample Header</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n      </tr>\n      <tr>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n      </tr>\n      <tr>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n      </tr>\n      <tr>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n      </tr>\n    </tbody>\n  </table>\n</div>",
+    "keywords": "new canvas table block",
+    "category": "Tables"
+  },
+  {
+    "id": "new-canvas-table-alternate-rows",
+    "title": "Table Component (Alternate Row Styling)",
+    "description": "A component for displaying tabular data, where you want to alternate the background color of rows.",
+    "previewHtml": "<div class=\"table-container\"><table class=\"alternate-rows\"><thead><tr><th>Sample Header</th><th>Sample Header</th><th>Sample Header</th></tr></thead><tbody><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr></tbody></table></div>",
+    "snippetHtml": "<div class=\"table-container\">\n  <table class=\"alternate-rows\">\n    <thead>\n      <tr>\n        <th>Sample Header</th>\n        <th>Sample Header</th>\n        <th>Sample Header</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n      </tr>\n      <tr>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n      </tr>\n      <tr>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n      </tr>\n      <tr>\n        <td>Sample text here</td>\n        <td>Sample text here</ td>\n        <td> Sample text here </td>\n      </tr>\n    </tbody>\n  </table>\n</div>",
+    "keywords": "new canvas table block",
+    "category": "Tables"
+  },
+  {
+    "id": "new-canvas-table-alternate-columns",
+    "title": "Table Component (Alternate Column Styling)",
+    "description": "A component for displaying tabular data, where you want to alternate the background color of columns.",
+    "previewHtml": "<div class=\"table-container\"><table class=\"alternate-columns\"><thead><tr><th>Sample Header</th><th>Sample Header</th><th>Sample Header</th></tr></thead><tbody><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr><tr><td>Sample text here</td><td>Sample text here</td><td>Sample text here</td></tr></tbody></table></div>",
+    "snippetHtml": "<div class=\"table-container\">\n  <table class=\"alternate-columns\">\n    <thead>\n      <tr>\n        <th>Sample Header</th>\n        <th>Sample Header</th>\n        <th>Sample Header</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n      </tr>\n      <tr>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n        <td>Sample text here</td>\n      </tr>\n      <tr>\n        <td>Sample text here</td>\n        <td>Sample text here</ td>\n        <td> Sample text here </ td>\n      </tr>\n    </tbody>\n  </table>\n</div>",
+    "keywords": "new canvas table block",
+    "category": "Tables"
+  },
+  {
+    "id": "new-canvas-course-display-header",
+    "title": "Course Display Header",
+    "description": "A special component for a fancy header on the Course Intro page; it should be used only for this purpose.",
+    "previewHtml": "<section class=\"display-header\">\n  <div class=\"heading\">\n    <div>\n      <h2>Welcome to <strong>Beyond the Sustainable Development Goals (SDGs): Addressing Sustainability and Development</strong></h2>\n      <img class=\"um-logo\" role=\"presentation\" src=\"https://courses.online.umich.edu/courses/284/files/9377/preview\" alt=\"\" width=\"71\" height=\"75\" data-api-endpoint=\"https://courses.online.umich.edu/api/v1/courses/284/files/9377\" data-api-returntype=\"File\" loading=\"lazy\">\n    </div>\n    <div class=\"collage\">\n      <div>&nbsp;</div>\n      <div><img src=\"https://images.unsplash.com/photo-1611131922192-9e1d9f483900\" alt=\"describe the image itself within these double quotations\" loading=\"lazy\"></div>\n    </div>\n  </div>\n  <div class=\"nav-links\">\n    <ul>\n      <li><p><a title=\"0.1 Welcome to the Course\" href=\"URL here\">Start Here</a></p></li>\n      <li><p><a title=\"0.2 Introduction and Syllabus\" href=\"URL here\">See Syllabus</a></p></li>\n      <li><p><a title=\"Modules\" href=\"URL here\">See Modules</a></p></li>\n      <li><p><a title=\"0.4 Course Support\" href=\"URL here\">Get Course Support</a></p></li>\n    </ul>\n  </div>\n</section>",
+    "snippetHtml": "<section class=\"display-header\">\n  <div class=\"heading\">\n    <div>\n      <h2>Welcome to <strong>Course Title</strong></h2>\n      <img class=\"um-logo\" role=\"presentation\" src=\"https://courses.online.umich.edu/courses/284/files/9377/preview\" alt=\"\" width=\"71\" height=\"75\" loading=\"lazy\">\n    </div>\n    <div class=\"collage\">\n      <div>&nbsp;</div>\n      <div><img src=\"https://images.unsplash.com/photo-1611131922192-9e1d9f483900\" alt=\"describe the image itself within these double quotations\" loading=\"lazy\"></div>\n    </div>\n  </div>\n  <div class=\"nav-links\">\n    <ul>\n      <li><p><a title=\"0.1 Welcome to the Course\" href=\"URL here\">Start Here</a></p></li>\n      <li><p><a title=\"0.2 Introduction and Syllabus\" href=\"URL here\">See Syllabus</a></p></li>\n      <li><p><a title=\"Modules\" href=\"URL here\">See Modules</a></p></li>\n      <li><p><a title=\"0.4 Course Support\" href=\"URL here\">Get Course Support</a></p></li>\n    </ul>\n  </div>\n</section>",
+    "keywords": "new canvas course header",
+    "category": "Course Intro Display Header"
+  },
+  {
+    "id": "new-canvas-course-series-display-header",
+    "title": "Course Display Header (Course Series)",
+    "description": "A special component for a fancy header on the Course Intro page; it should be used only for this purpose. This version is for courses that are part of a series, and includes a sub-title with the course number and series name.",
+    "previewHtml": "<div class=\"sub-title\">\n  <p>Course Y of the <em>Whatever Cupcakes Could You Possibly Ipsum</em> Series</p>\n</div>\n<section class=\"display-header\">\n  <div class=\"heading\">\n    <div>\n      <p class=\"tag\">Course 2 of 3</p>\n      <h2>Welcome to <strong>Beyond the Sustainable Development Goals (SDGs): Addressing Sustainability and Development</strong></h2>\n      <img class=\"um-logo\" role=\"presentation\" src=\"https://courses.online.umich.edu/courses/284/files/9377/preview\" alt=\"\" width=\"71\" height=\"75\" data-api-endpoint=\"https://courses.online.umich.edu/api/v1/courses/284/files/9377\" data-api-returntype=\"File\" loading=\"lazy\">\n    </div>\n    <div class=\"collage\">\n      <div>&nbsp;</div>\n      <div><img src=\"https://images.unsplash.com/photo-1611131922192-9e1d9f483900\" alt=\"describe the image itself within these double quotations\" loading=\"lazy\"></div>\n    </div>\n  </div>\n  <div class=\"nav-links\">\n    <ul>\n      <li><p><a title=\"0.1 Welcome to the Course\" href=\"URL here\">Start Here</a></p></li>\n      <li><p><a title=\"0.2 Introduction and Syllabus\" href=\"URL here\">See Syllabus</a></p></li>\n      <li><p><a title=\"Modules\" href=\"URL here\">See Modules</a></p></li>\n      <li><p><a title=\"0.4 Course Support\" href=\"URL here\">Get Course Support</a></p></li>\n    </ul>\n  </div>\n</section>",
+    "snippetHtml": "<div class=\"sub-title\">\n  <p>Course # of the <em>Course Series Name</em> Series</p>\n</div>\n<section class=\"display-header\">\n  <div class=\"heading\">\n    <div>\n      <p class=\"tag\">Course # of #</p>\n      <h2>Welcome to <strong>Course Title</strong></h2>\n      <img class=\"um-logo\" role=\"presentation\" src=\"https://courses.online.umich.edu/courses/284/files/9377/preview\" alt=\"\" width=\"71\" height=\"75\" loading=\"lazy\">\n    </div>\n    <div class=\"collage\">\n      <div>&nbsp;</div>\n      <div><img src=\"https://images.unsplash.com/photo-1611131922192-9e1d9f483900\" alt=\"describe the image itself within these double quotations\" loading=\"lazy\"></div>\n    </div>\n  </div>\n  <div class=\"nav-links\">\n    <ul>\n      <li><p><a title=\"0.1 Welcome to the Course\" href=\"URL here\">Start Here</a></p></li>\n      <li><p><a title=\"0.2 Introduction and Syllabus\" href=\"URL here\">See Syllabus</a></p></li>\n      <li><p><a title=\"Modules\" href=\"URL here\">See Modules</a></p></li>\n      <li><p><a title=\"0.4 Course Support\" href=\"URL here\">Get Course Support</a></p></li>\n    </ul>\n  </div>\n</section>",
+    "keywords": "new canvas course header",
+    "category": "Course Intro Display Header"
   }
 ]
