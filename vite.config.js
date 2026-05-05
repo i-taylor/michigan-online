@@ -4,7 +4,9 @@ import { globSync } from 'glob'
 
 export default defineConfig({
   root: 'cookbook',
+  envDir: '.',
   base: './',
+  cacheDir: 'node_modules/.vite',
   css: {
     preprocessorOptions: {
       less: {}

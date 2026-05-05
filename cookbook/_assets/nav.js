@@ -1,4 +1,5 @@
 import './cookbook.less'
+import elementsData from '../elements.json'
 
 const PAGES = [
   { href: 'index.html',              label: 'Image Assets' },
@@ -32,7 +33,14 @@ const SEARCH_DATA = [
 ]
 
 const currentPage = document.body.dataset.page || ''
-const dynamicSearchData = []
+const dynamicSearchData = elementsData
+  .filter(item => item?.title && item?.id)
+  .map(item => ({
+    title: item.title,
+    page: 'html-elements.html',
+    url: 'html-elements.html#' + item.id,
+    keywords: item.keywords || ''
+  }))
 
 function normalize(text) {
   return text.toLowerCase().replace(/\s+/g, ' ').trim()
@@ -182,29 +190,11 @@ function renderOtherResults(query) {
 
 function setupSearch(input) {
   if (!input) return
-
   input.addEventListener('input', () => {
     const query = normalize(input.value)
     filterLocalCards(query)
     renderOtherResults(query)
   })
-
-  fetch('elements.json')
-    .then((r) => r.ok ? r.json() : [])
-    .then((items) => {
-      if (!Array.isArray(items)) return
-      items.forEach((item) => {
-        if (!item?.title || !item?.id) return
-        dynamicSearchData.push({
-          title: item.title,
-          page: 'html-elements.html',
-          url: 'html-elements.html#' + item.id,
-          keywords: item.keywords || ''
-        })
-      })
-      if (input.value) renderOtherResults(normalize(input.value))
-    })
-    .catch(() => {})
 }
 
 const searchInput = buildNav()
