@@ -12,7 +12,7 @@
     "id": "new-canvas-text-block-assignment",
     "title": "Text Block Section for Assignment Instructions",
     "description": "Text block section specifically designed for displaying assignment instructions.",
-    "previewHtml": "<section class=\"text-block assignment\">\n  <h2>Your Assignment</h2>\n  <h3>Overview</h3>\n  <p>This is a text block section for assignment instructions.</p>\n <h3>Objectives</h3>\n  <p>This is a text block section for assignment instructions.</p>\n <h3>Instructions</h3>\n  <p>This is a text block section for assignment instructions. <a href=\"\">link text</a> </p>\n</section>",
+    "previewHtml": "<section class=\"text-block assignment\">\n  <h2>Your Assignment</h2>\n  <h3>Overview</h3>\n  <p>This is a text block section for assignment instructions.</p><ul><li>list order 1<ul><li>list order 2 <ul><li>list order 3</li></ul></li></ul></li></ul> \n <h3>Objectives</h3>\n  <p>This is a text block section for assignment instructions.</p>\n <h3>Instructions</h3>\n  <p>This is a text block section for assignment instructions. <a href=\"\">link text</a> </p>\n</section>",
     "snippetHtml": "<section class=\"text-block assignment\">\n  <p>Assignment instructions go here.</p>\n</section>",
     "keywords": "new canvas text block assignment instructions",
     "category": "Text Blocks"
