@@ -362,7 +362,7 @@ a.external:active span {
     
         &.text-block {
             h2 {
-                margin: 0 0 2rem 0;
+                margin: .5rem 0 2rem 0;
             }
             
             h3 {
@@ -395,6 +395,12 @@ a.external:active span {
                 }
             }
             
+            & > h3 {
+                &:first-of-type {
+                    margin-top: 1rem;
+                }
+            }
+
             h4 {
                 margin: 2rem 0 1rem 0;
             }
@@ -548,7 +554,7 @@ a.external:active span {
                     width: 50%;
                     
                     &:first-of-type {
-                        padding-right: 1rem;
+                        margin-right: 1rem;
                     }
                 }    
             }
