@@ -30,8 +30,8 @@
     "id": "new-canvas-heading-h3",
     "title": "Heading 3",
     "description": "Heading level 3 styling with the accent line treatment.",
-    "previewHtml": "<section class=\"text-block\">\n  <h3>This is a Heading 3 or &lt;h3&gt; tag</h3>\n  <p>This is sentence within a <code>&lt;paragraph&gt;</code> tag.</p>\n  <h3>This is a Heading 3 or &lt;h3&gt; tag</h3>\n  <p>This is sentence within a <code>&lt;paragraph&gt;</code> tag.</p>\n  <h3>This is a Heading 3 or &lt;h3&gt; tag</h3>\n  <p>This is sentence within a <code>&lt;paragraph&gt;</code> tag.</p>\n</section>",
-    "snippetHtml": "<section class=\"text-block\">\n  <h3>Heading 3</h3>\n  <p>Paragraph text</p>\n  <h3>Heading 3</h3>\n  <p>Paragraph text</p>\n  <h3>Heading 3</h3>\n  <p>Paragraph text</p>\n</section>",
+    "previewHtml": "<section class=\"text-block\">\n  <h3 class=\"starting-h3\">This is a Heading 3 or &lt;h3&gt; tag</h3>\n  <p>If you start your Text Block with a Heading 3, it needs a special class name to ensure appropriate styling.</p> <p>This is sentence within a <code>&lt;paragraph&gt;</code> tag.</p>\n  <h3>This is a Heading 3 or &lt;h3&gt; tag</h3>\n  <p>This is sentence within a <code>&lt;paragraph&gt;</code> tag.</p>\n  <h3>This is a Heading 3 or &lt;h3&gt; tag</h3>\n  <p>This is sentence within a <code>&lt;paragraph&gt;</code> tag.</p>\n</section>",
+    "snippetHtml": "<section class=\"text-block\">\n  <h3 class=\"starting-h3\">Heading 3</h3>\n  <p>Paragraph text</p>\n  <h3>Heading 3</h3>\n  <p>Paragraph text</p>\n  <h3>Heading 3</h3>\n  <p>Paragraph text</p>\n</section>",
     "keywords": "new canvas heading h3 accent line text block",
     "category": "Text Blocks"
   },
