@@ -192,11 +192,11 @@ a.external:active span {
     }
 
     blockquote {
-        border-top: @line-thin solid @neutral-border; 
-        border-bottom: @line-thin solid @neutral-border; 
+        border-top: @line-thin solid @blue-warm; 
+        border-bottom: @line-thin solid @blue-warm; 
         border-left: none;
         padding: 1rem 1rem 1rem 2.5rem;
-        margin: 2rem auto;
+        margin: 3rem auto;
         max-width: 700px;
 
         @media @tablet {
@@ -204,6 +204,8 @@ a.external:active span {
         }
 
         p {
+            margin: 1rem 0;
+
             &:first-of-type {
                 .type-display-serif; 
                 font-weight: 300;
@@ -239,6 +241,7 @@ a.external:active span {
                 @media @tablet {
                     width: 300px;
                     margin-left: auto;
+                    margin-bottom: 0.5rem;
                 }
             }
         }
@@ -416,6 +419,12 @@ a.external:active span {
             iframe {
                 margin: auto;
                 display: block;
+            }
+
+            blockquote {
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
             }
         }
         
