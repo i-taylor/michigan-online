@@ -12,7 +12,7 @@
     "id": "new-canvas-text-block-assignment",
     "title": "Text Block Section for Assignment Instructions",
     "description": "Text block section specifically designed for displaying assignment instructions.",
-    "previewHtml": "<section class=\"text-block assignment\">\n  <h2>Your Assignment</h2>\n  <h3>Overview</h3>\n  <p>This is a text block section for assignment instructions.</p>\n <h3>Objectives</h3>\n  <p>This is a text block section for assignment instructions.</p>\n <h3>Instructions</h3>\n  <p>This is a text block section for assignment instructions. <a href=\"\">link text</a> </p>\n</section>",
+    "previewHtml": "<section class=\"text-block assignment\">\n  <h2>Your Assignment</h2>\n  <h3>Overview</h3>\n  <p>This is a text block section for assignment instructions.</p><ul><li>list order 1<ul><li>list order 2 <ul><li>list order 3</li></ul></li></ul></li></ul> \n <h3>Objectives</h3>\n  <p>This is a text block section for assignment instructions.</p>\n <h3>Instructions</h3>\n  <p>This is a text block section for assignment instructions.</p> <p><a href=\"\">link text</a> </p>\n</section>",
     "snippetHtml": "<section class=\"text-block assignment\">\n  <p>Assignment instructions go here.</p>\n</section>",
     "keywords": "new canvas text block assignment instructions",
     "category": "Text Blocks"
@@ -30,8 +30,8 @@
     "id": "new-canvas-heading-h3",
     "title": "Heading 3",
     "description": "Heading level 3 styling with the accent line treatment.",
-    "previewHtml": "<section class=\"text-block\">\n  <h3>This is a Heading 3 or &lt;h3&gt; tag</h3>\n  <p>This is sentence within a <code>&lt;paragraph&gt;</code> tag.</p>\n  <h3>This is a Heading 3 or &lt;h3&gt; tag</h3>\n  <p>This is sentence within a <code>&lt;paragraph&gt;</code> tag.</p>\n  <h3>This is a Heading 3 or &lt;h3&gt; tag</h3>\n  <p>This is sentence within a <code>&lt;paragraph&gt;</code> tag.</p>\n</section>",
-    "snippetHtml": "<section class=\"text-block\">\n  <h3>Heading 3</h3>\n  <p>Paragraph text</p>\n  <h3>Heading 3</h3>\n  <p>Paragraph text</p>\n  <h3>Heading 3</h3>\n  <p>Paragraph text</p>\n</section>",
+    "previewHtml": "<section class=\"text-block\">\n  <h3 class=\"starting-h3\">This is a Heading 3 or &lt;h3&gt; tag</h3>\n  <p>If you start your Text Block with a Heading 3, it needs a special class name to ensure appropriate styling.</p> <p>This is sentence within a <code>&lt;paragraph&gt;</code> tag.</p>\n  <h3>This is a Heading 3 or &lt;h3&gt; tag</h3>\n  <p>This is sentence within a <code>&lt;paragraph&gt;</code> tag.</p>\n  <h3>This is a Heading 3 or &lt;h3&gt; tag</h3>\n  <p>This is sentence within a <code>&lt;paragraph&gt;</code> tag.</p>\n</section>",
+    "snippetHtml": "<section class=\"text-block\">\n  <h3 class=\"starting-h3\">Heading 3</h3>\n  <p>Paragraph text</p>\n  <h3>Heading 3</h3>\n  <p>Paragraph text</p>\n  <h3>Heading 3</h3>\n  <p>Paragraph text</p>\n</section>",
     "keywords": "new canvas heading h3 accent line text block",
     "category": "Text Blocks"
   },
@@ -84,7 +84,7 @@
     "id": "new-canvas-callout-action",
     "title": "Action Callout Box",
     "description": "Action-oriented callout box for prompts, reflections, and learner tasks.",
-    "previewHtml": "<section class=\"text-block\">\n  <div class=\"callout-box action\">\n    <p class=\"tag\">action</p>\n    <p>Use this type of call-out box for instances where you want the learner to take an action, such as &quot;reflections.&quot;</p>\n  <a href=\"\">link text</a></div>\n</section>",
+    "previewHtml": "<section class=\"text-block\">\n  <div class=\"callout-box action\">\n    <p class=\"tag\">action</p>\n    <p>Use this type of call-out box for instances where you want the learner to take an action, such as &quot;reflections.&quot;</p>\n  <p><a href=\"\">link text</a></p></div>\n</section>",
     "snippetHtml": "<div class=\"callout-box action\">\n  <p class=\"tag\">Tag label</p>\n  <p>Put content here</p>\n</div>",
     "keywords": "new canvas callout box action reflection prompt tag",
     "category": "Callout Boxes"
@@ -93,7 +93,7 @@
     "id": "new-canvas-callout-highlight",
     "title": "Highlight Callout Box",
     "description": "High-visibility callout box for future warning or emphasis use cases.",
-    "previewHtml": "<section class=\"text-block\">\n  <div class=\"callout-box highlight\">\n    <p class=\"tag\">highlight</p>\n    <p>This type of call-out box is for future use, anticipating situations where we need to warn learners or otherwise be brightly colorful.</p>\n  <a href=\"\">link text</a></div>\n</section>",
+    "previewHtml": "<section class=\"text-block\">\n  <div class=\"callout-box highlight\">\n    <p class=\"tag\">highlight</p>\n    <p>This type of call-out box is for future use, anticipating situations where we need to warn learners or otherwise be brightly colorful.</p>\n  <p><a href=\"\">link text</a></p></div>\n</section>",
     "snippetHtml": "<div class=\"callout-box highlight\">\n  <p class=\"tag\">Tag label</p>\n  <p>Put content here</p>\n</div>",
     "keywords": "new canvas callout box highlight warning emphasis tag",
     "category": "Callout Boxes"
@@ -268,5 +268,23 @@
     "snippetHtml": "<div class=\"sub-title\">\n  <p>Course # of the <em>Course Series Name</em> Series</p>\n</div>\n<section class=\"display-header\">\n  <div class=\"heading\">\n    <div>\n      <p class=\"tag\">Course # of #</p>\n      <h2>Welcome to <strong>Course Title</strong></h2>\n      <img class=\"um-logo\" role=\"presentation\" src=\"https://courses.online.umich.edu/courses/284/files/9377/preview\" alt=\"\" width=\"71\" height=\"75\" loading=\"lazy\">\n    </div>\n    <div class=\"collage\">\n      <div>&nbsp;</div>\n      <div><img src=\"https://images.unsplash.com/photo-1611131922192-9e1d9f483900\" alt=\"describe the image itself within these double quotations\" loading=\"lazy\"></div>\n    </div>\n  </div>\n  <div class=\"nav-links\">\n    <ul>\n      <li><p><a title=\"0.1 Welcome to the Course\" href=\"URL here\">Start Here</a></p></li>\n      <li><p><a title=\"0.2 Introduction and Syllabus\" href=\"URL here\">See Syllabus</a></p></li>\n      <li><p><a title=\"Modules\" href=\"URL here\">See Modules</a></p></li>\n      <li><p><a title=\"0.4 Course Support\" href=\"URL here\">Get Course Support</a></p></li>\n    </ul>\n  </div>\n</section>",
     "keywords": "new canvas course header",
     "category": "Course Intro Display Header"
+  },
+  {
+    "id": "new-canvas-button-footer",
+    "title": "Button Footer with MO Logo Footer",
+    "description": "A component for the button footer, used at the bottom of Course Landing pages.",
+    "previewHtml": "<section class=\"btn-footer\">\n  <a href=\"URL here\" class=\"btn\">Start Here</a>\n</section> \n<section class=\"mo-logo-footer\">\n  <img role=\"presentation\" src=\"https://shared-files.online.umich.edu/michigan-online/course-images/current/michiganOnline.png\" alt=\"Michigan Online logo\" width=\"318\" height=\"56\" />\n</section>",
+    "snippetHtml": "<section class=\"btn-footer\">\n  <a href=\"URL here\" class=\"btn\">Start Here</a>\n</section> \n<section class=\"mo-logo-footer\">\n  <img role=\"presentation\" src=\"https://shared-files.online.umich.edu/michigan-online/course-images/current/michiganOnline.png\" alt=\"Michigan Online logo\" width=\"318\" height=\"56\" />\n</section>",
+    "keywords": "new canvas button footer course landing page",
+    "category": "Footer Blocks"
+  },
+  {
+    "id": "new-canvas-mo-logo-footer",
+    "title": "MO Logo Footer",
+    "description": "A component for the MO logo footer, used at the bottom of Course Landing pages.",
+    "previewHtml": "<section class=\"mo-logo-footer\">\n  <img role=\"presentation\" src=\"https://shared-files.online.umich.edu/michigan-online/course-images/current/michiganOnline.png\" alt=\"Michigan Online logo\" width=\"318\" height=\"56\" />\n</section>",
+    "snippetHtml": "<section class=\"mo-logo-footer\">\n  <img role=\"presentation\" src=\"https://shared-files.online.umich.edu/michigan-online/course-images/current/michiganOnline.png\" alt=\"Michigan Online logo\" width=\"318\" height=\"56\" />\n</section>",
+    "keywords": "new canvas mo logo footer course landing page",
+    "category": "Footer Blocks"
   }
 ]

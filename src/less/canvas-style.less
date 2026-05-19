@@ -192,11 +192,11 @@ a.external:active span {
     }
 
     blockquote {
-        border-top: @line-thin solid @neutral-border; 
-        border-bottom: @line-thin solid @neutral-border; 
+        border-top: @line-thin solid @blue-warm; 
+        border-bottom: @line-thin solid @blue-warm; 
         border-left: none;
         padding: 1rem 1rem 1rem 2.5rem;
-        margin: 2rem auto;
+        margin: 3rem auto;
         max-width: 700px;
 
         @media @tablet {
@@ -204,6 +204,8 @@ a.external:active span {
         }
 
         p {
+            margin: 1rem 0;
+
             &:first-of-type {
                 .type-display-serif; 
                 font-weight: 300;
@@ -239,6 +241,7 @@ a.external:active span {
                 @media @tablet {
                     width: 300px;
                     margin-left: auto;
+                    margin-bottom: 0.5rem;
                 }
             }
         }
@@ -362,7 +365,7 @@ a.external:active span {
     
         &.text-block {
             h2 {
-                margin: 0 0 2rem 0;
+                margin: .5rem 0 2rem 0;
             }
             
             h3 {
@@ -393,13 +396,17 @@ a.external:active span {
                         background-color: @um-maize;
                     }
                 }
+
+                &.starting-h3 {
+                    margin-top: 1rem;
+                }
             }
-            
+
             h4 {
                 margin: 2rem 0 1rem 0;
             }
             
-            .callout-box {                
+            .callout-box, .two-col {                
                 h3 {
                     margin: 1.5rem 0;
                     
@@ -410,6 +417,12 @@ a.external:active span {
             iframe {
                 margin: auto;
                 display: block;
+            }
+
+            blockquote {
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
             }
         }
         
@@ -475,6 +488,10 @@ a.external:active span {
                 color: @blue-warm-light;
             }
 
+            li li::marker {
+                color: @white;
+            }
+
             a {
                 color: @white;
 
@@ -494,6 +511,7 @@ a.external:active span {
             border-bottom: @line-default solid @um-maize;
             padding: 1rem;
             margin-bottom: 2rem;
+            margin-top: -1px;
             
             @media @desktop {
                 padding: 2rem 0;
@@ -548,7 +566,8 @@ a.external:active span {
                     width: 50%;
                     
                     &:first-of-type {
-                        padding-right: 1rem;
+                        margin-right: 1rem;
+                        z-index: 1;
                     }
                 }    
             }
@@ -573,7 +592,7 @@ a.external:active span {
                 top: 0;
                 
                 &:first-of-type {    
-                    background: url('https://raw.githubusercontent.com/i-taylor/michigan-online/0c0c8ccf6e584d843ca21a8d400b511eba2c91fb/collage-accent_1.svg') no-repeat top left;
+                    background: url('https://raw.githubusercontent.com/academic-innovation/canvas-css/refs/heads/develop/src/assets/collage-accent_1.svg') no-repeat top left;
                     background-size: contain;
                     width: 55%;
                     height: 100%;
@@ -586,7 +605,7 @@ a.external:active span {
                 width: 100%;
                 height: auto;
                 display: block;
-                mask-image: url('https://raw.githubusercontent.com/i-taylor/michigan-online/0c0c8ccf6e584d843ca21a8d400b511eba2c91fb/collage-mask_1.svg');
+                mask-image: url('https://raw.githubusercontent.com/academic-innovation/canvas-css/refs/heads/develop/src/assets/collage-mask_1.svg');
                 mask-position: right center;
                 mask-repeat: no-repeat;  
             }
@@ -855,6 +874,10 @@ a.external:active span {
                 color: @blue-warm;
             }
 
+            li li::marker {
+                color: @white;
+            }
+
             a {
                 color: @white;
 
@@ -972,9 +995,21 @@ a.external:active span {
                         background-color: @um-blue;
                     }
                 }
+
+                a {
+                    color: @white;
+
+                    &:hover {
+                        text-decoration-color: @um-maize !important;
+                    }
+                }
                 
                 li::marker {
                     color: @blue-warm;
+                }
+
+                li li::marker {
+                    color: @white;
                 }
             }
             
@@ -992,187 +1027,6 @@ a.external:active span {
                 }
             }
         }
-    }
-    
-    .callout-box {
-        background-color: @purple-light;
-        padding: 1rem 2rem;
-        margin: 2rem 0;
-        border-left: @line-accent solid @purple;
-        
-        @media @mobile {
-            padding: 2rem 3rem;
-        }
-        
-        .tag {
-            margin: 1rem 0;
-        }
-        
-        &.action {
-            background-color: @um-blue;
-            color: @white;
-            border-left-color: @um-maize;
-            
-            .tag {
-                border-color: @white;
-            }
-            
-            li::marker {
-                color: @blue-warm;
-            }
-
-            a {
-                color: @white;
-
-                &:hover {
-                    text-decoration-color: @um-maize !important;
-                }
-            }
-        }
-        
-        &.highlight {
-            background-color: @blue-cool;
-            color: @white;
-            border-left-color: @um-maize;
-            
-            .tag {
-                border-color: @white;
-            }
-            
-            li::marker {
-                color: @white;
-            }
-
-            a {
-                color: @white;
-
-                &:hover {
-                    text-decoration-color: @um-maize !important;
-                }
-            }
-        }
-    }
-    
-    .img-caption {
-        width: 100%;
-        max-width: 850px;
-        margin: 2rem auto;
-        
-        img {
-            display: block;
-            width: 100%; 
-        }
-        
-        img.rounded-corners {
-            .rounded-small;
-        }
-    }
-    
-    .two-col {
-        margin: 2rem auto;
-
-        @media @desktop {
-            display: flex;
-        }
-        
-        & > div {
-            padding: 2rem;
-            
-            @media @desktop {
-                width: 50%;
-            }
-            
-            h4 {
-                margin-top: 0;
-            }
-            
-            img {
-                display: block;
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-        }
-        
-        &.text-text {
-            border: @line-default solid @blue-cool;
-            
-            & > div {
-                &:last-of-type {
-                    border-top: @line-default solid @blue-cool;
-                
-                    @media @desktop {
-                        border-top: none;
-                        border-left: @line-default solid @blue-cool;
-                    }
-                }
-            }
-            
-            &.maize {
-                & > div {
-                    &:last-of-type {
-                        background-color: @um-maize;
-                    }
-                }
-            }
-        }
-        
-        &.text-img {
-            & > div {
-                &:first-of-type {
-                    background-color: @blue-warm-extra-light;
-                }
-                
-                &:last-of-type {
-                    padding: 0;
-                }
-            }
-            
-            &.dark {
-                color: @white;
-                
-                & > div {
-                    &:first-of-type {
-                        background-color: @um-blue;
-                    }
-                }
-                
-                li::marker {
-                    color: @blue-warm;
-                }
-            }
-            
-            &.highlight {
-                color: @white;
-                
-                & > div {
-                    &:first-of-type {
-                        background-color: @blue-cool;
-                    }
-                }
-                
-                li::marker {
-                    color: @white;
-                }
-            }
-        }
-    }
-}
-
-.sophia-says {
-    background-color: pink;
-    padding: 1rem;
-    margin: 2rem 0;
-    border-bottom-right-radius: 2rem;
-    max-width: 900px;
-    
-    &:before {
-        content: '🍓';
-    }
-    
-    p {
-        .type-display-serif;
-        font-weight: 300;
     }
 }
 
