@@ -511,6 +511,7 @@ a.external:active span {
             border-bottom: @line-default solid @um-maize;
             padding: 1rem;
             margin-bottom: 2rem;
+            margin-top: -1px;
             
             @media @desktop {
                 padding: 2rem 0;
@@ -994,6 +995,14 @@ a.external:active span {
                         background-color: @um-blue;
                     }
                 }
+
+                a {
+                    color: @white;
+
+                    &:hover {
+                        text-decoration-color: @um-maize !important;
+                    }
+                }
                 
                 li::marker {
                     color: @blue-warm;
@@ -1018,23 +1027,6 @@ a.external:active span {
                 }
             }
         }
-    }
-}
-
-.sophia-says {
-    background-color: pink;
-    padding: 1rem;
-    margin: 2rem 0;
-    border-bottom-right-radius: 2rem;
-    max-width: 900px;
-    
-    &:before {
-        content: '🍓';
-    }
-    
-    p {
-        .type-display-serif;
-        font-weight: 300;
     }
 }
 

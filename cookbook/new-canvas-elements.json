@@ -268,5 +268,23 @@
     "snippetHtml": "<div class=\"sub-title\">\n  <p>Course # of the <em>Course Series Name</em> Series</p>\n</div>\n<section class=\"display-header\">\n  <div class=\"heading\">\n    <div>\n      <p class=\"tag\">Course # of #</p>\n      <h2>Welcome to <strong>Course Title</strong></h2>\n      <img class=\"um-logo\" role=\"presentation\" src=\"https://courses.online.umich.edu/courses/284/files/9377/preview\" alt=\"\" width=\"71\" height=\"75\" loading=\"lazy\">\n    </div>\n    <div class=\"collage\">\n      <div>&nbsp;</div>\n      <div><img src=\"https://images.unsplash.com/photo-1611131922192-9e1d9f483900\" alt=\"describe the image itself within these double quotations\" loading=\"lazy\"></div>\n    </div>\n  </div>\n  <div class=\"nav-links\">\n    <ul>\n      <li><p><a title=\"0.1 Welcome to the Course\" href=\"URL here\">Start Here</a></p></li>\n      <li><p><a title=\"0.2 Introduction and Syllabus\" href=\"URL here\">See Syllabus</a></p></li>\n      <li><p><a title=\"Modules\" href=\"URL here\">See Modules</a></p></li>\n      <li><p><a title=\"0.4 Course Support\" href=\"URL here\">Get Course Support</a></p></li>\n    </ul>\n  </div>\n</section>",
     "keywords": "new canvas course header",
     "category": "Course Intro Display Header"
+  },
+  {
+    "id": "new-canvas-button-footer",
+    "title": "Button Footer with MO Logo Footer",
+    "description": "A component for the button footer, used at the bottom of Course Landing pages.",
+    "previewHtml": "<section class=\"btn-footer\">\n  <a href=\"URL here\" class=\"btn\">Start Here</a>\n</section> \n<section class=\"mo-logo-footer\">\n  <img role=\"presentation\" src=\"https://shared-files.online.umich.edu/michigan-online/course-images/current/michiganOnline.png\" alt=\"Michigan Online logo\" width=\"318\" height=\"56\" />\n</section>",
+    "snippetHtml": "<section class=\"btn-footer\">\n  <a href=\"URL here\" class=\"btn\">Start Here</a>\n</section> \n<section class=\"mo-logo-footer\">\n  <img role=\"presentation\" src=\"https://shared-files.online.umich.edu/michigan-online/course-images/current/michiganOnline.png\" alt=\"Michigan Online logo\" width=\"318\" height=\"56\" />\n</section>",
+    "keywords": "new canvas button footer course landing page",
+    "category": "Footer Blocks"
+  },
+  {
+    "id": "new-canvas-mo-logo-footer",
+    "title": "MO Logo Footer",
+    "description": "A component for the MO logo footer, used at the bottom of Course Landing pages.",
+    "previewHtml": "<section class=\"mo-logo-footer\">\n  <img role=\"presentation\" src=\"https://shared-files.online.umich.edu/michigan-online/course-images/current/michiganOnline.png\" alt=\"Michigan Online logo\" width=\"318\" height=\"56\" />\n</section>",
+    "snippetHtml": "<section class=\"mo-logo-footer\">\n  <img role=\"presentation\" src=\"https://shared-files.online.umich.edu/michigan-online/course-images/current/michiganOnline.png\" alt=\"Michigan Online logo\" width=\"318\" height=\"56\" />\n</section>",
+    "keywords": "new canvas mo logo footer course landing page",
+    "category": "Footer Blocks"
   }
 ]
