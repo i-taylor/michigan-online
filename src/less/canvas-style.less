@@ -1045,6 +1045,8 @@ a.external:active span {
 
             img {
                 border-radius: ~"calc(40px - 1rem)";
+                height: auto;
+                object-fit: unset;
             }
             
             & > div {
@@ -1080,6 +1082,38 @@ a.external:active span {
 
                 .tag {
                     border-color: @white;
+                }
+            }
+
+            &.corner-accent {
+                background-color: @white;
+                border: @line-thick solid @blue-warm-light;
+                position: relative;
+                overflow: hidden;
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    background-color: @blue-warm-light;
+                    bottom: 0;
+                    left: 0;
+                    height: 500px;
+                    width: 500px;
+                    clip-path: polygon(0 100%, 0 0, 73% 100%);
+                }
+
+                & > div {
+                    z-index: 1;
+                    position: relative;
+                }
+
+                &.dark {
+                    background-color: @um-blue;
+                    border: none;
+
+                    &:before {
+                        background-color: @um-maize;
+                    }
                 }
             }
         }
