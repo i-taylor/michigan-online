@@ -439,6 +439,11 @@ a.external:active span {
             h2 {
                 margin: .5rem 0 2rem 0;
                 text-align: center;
+
+                @media @tablet {
+                    max-width: 850px;
+                    margin: 0 auto 2rem auto;
+                }
             }
 
             p {
@@ -458,6 +463,10 @@ a.external:active span {
             .video-tag-wrapper {
                 text-align: right;
                 margin: 0 0 1.5rem 0;
+
+                @media @tablet {
+                    margin: 0 0 0.5rem 0;
+                }
             }
             
             &.highlight {
