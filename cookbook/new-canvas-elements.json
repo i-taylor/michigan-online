@@ -198,6 +198,15 @@
     "category": "Side by Side Blocks"
   },
   {
+    "id": "new-canvas-text-img-highlight",
+    "title": "Two-Column Text and Image Block (Highlight)",
+    "description": "Text and image blocks displayed side by side with a highlight background.",
+    "previewHtml": "<div class=\"two-col text-img highlight\"> <div> <p>Text content for the first column. This variation is intended for a use case where the content needs to stand out more. In the second column, replace the image with your own, and ensure that it is properly sized and alt-texted.</p> </div> <div><img src=\"https://images.unsplash.com/photo-1616017640739-44ce2bfd9b4e?q=80&amp;w=387&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" alt=\"put alternative text here\" width=\"1024\" height=\"1127\" loading=\"lazy\"></div></div>",
+    "snippetHtml": "<div class=\"two-col text-img highlight\">\n  <div>\n    <p>Text content for the first column. In the second column, replace the image with your own, and ensure that it is properly sized and alt-texted.</p>\n  </div>\n  <div>\n    <img src=\"https://images.unsplash.com/photo-1616017640739-44ce2bfd9b4e?q=80&amp;w=387&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" alt=\"put alternative text here\" width=\"1024\" height=\"1127\" loading=\"lazy\">\n  </div>\n</div>",
+    "keywords": "new canvas text block side by side image highlight background",
+    "category": "Side by Side Blocks"
+  },
+  {
     "id": "new-canvas-img-text",
     "title": "Two-Column Flexible Nested Image and Text Block",
     "description": "Nested image and text blocks displayed side by side. This image is unconstrained and the surrounding layout is flexible to accommodate different image aspect ratios.",
@@ -232,15 +241,6 @@
     "snippetHtml": "<div class=\"img-caption\">\n  <img src=\"https://courses.online.umich.edu/courses/284/files/9355/preview\" class=\"rounded-corners\" alt=\"Course-Image-Placeholder.jpg\" loading=\"lazy\">\n  <p><em>Put caption text here</em></p>\n</div>",
     "keywords": "new canvas image block caption",
     "category": "Images with Captions"
-  },
-  {
-    "id": "new-canvas-text-img-highlight",
-    "title": "Two-Column Text and Image Block (Highlight)",
-    "description": "Text and image blocks displayed side by side with a highlight background.",
-    "previewHtml": "<div class=\"two-col text-img highlight\"> <div> <p>Text content for the first column. This variation is intended for a use case where the content needs to stand out more. In the second column, replace the image with your own, and ensure that it is properly sized and alt-texted.</p> </div> <div><img src=\"https://images.unsplash.com/photo-1616017640739-44ce2bfd9b4e?q=80&amp;w=387&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" alt=\"put alternative text here\" width=\"1024\" height=\"1127\" loading=\"lazy\"></div></div>",
-    "snippetHtml": "<div class=\"two-col text-img highlight\">\n  <div>\n    <p>Text content for the first column. In the second column, replace the image with your own, and ensure that it is properly sized and alt-texted.</p>\n  </div>\n  <div>\n    <img src=\"https://images.unsplash.com/photo-1616017640739-44ce2bfd9b4e?q=80&amp;w=387&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" alt=\"put alternative text here\" width=\"1024\" height=\"1127\" loading=\"lazy\">\n  </div>\n</div>",
-    "keywords": "new canvas text block side by side image highlight background",
-    "category": "Side by Side Blocks"
   },
   {
     "id": "new-canvas-table",
