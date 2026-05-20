@@ -198,6 +198,51 @@
     "category": "Side by Side Blocks"
   },
   {
+    "id": "new-canvas-text-img-highlight",
+    "title": "Two-Column Text and Image Block (Highlight)",
+    "description": "Text and image blocks displayed side by side with a highlight background.",
+    "previewHtml": "<div class=\"two-col text-img highlight\"> <div> <p>Text content for the first column. This variation is intended for a use case where the content needs to stand out more. In the second column, replace the image with your own, and ensure that it is properly sized and alt-texted.</p> </div> <div><img src=\"https://images.unsplash.com/photo-1616017640739-44ce2bfd9b4e?q=80&amp;w=387&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" alt=\"put alternative text here\" width=\"1024\" height=\"1127\" loading=\"lazy\"></div></div>",
+    "snippetHtml": "<div class=\"two-col text-img highlight\">\n  <div>\n    <p>Text content for the first column. In the second column, replace the image with your own, and ensure that it is properly sized and alt-texted.</p>\n  </div>\n  <div>\n    <img src=\"https://images.unsplash.com/photo-1616017640739-44ce2bfd9b4e?q=80&amp;w=387&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" alt=\"put alternative text here\" width=\"1024\" height=\"1127\" loading=\"lazy\">\n  </div>\n</div>",
+    "keywords": "new canvas text block side by side image highlight background",
+    "category": "Side by Side Blocks"
+  },
+  {
+    "id": "new-canvas-img-text",
+    "title": "Two-Column Flexible Nested Image and Text Block",
+    "description": "Nested image and text blocks displayed side by side. This image is unconstrained and the surrounding layout is flexible to accommodate different image aspect ratios.",
+    "previewHtml": "<div class=\"two-col img-text\"> <div><img src=\"https://images.unsplash.com/photo-1778546978926-100202afc9cf?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" alt=\"put alternative text here\" width=\"1024\" height=\"1127\" loading=\"lazy\"></div> <div> <p class=\"tag\">optional tag</p> <h3>Optional H3 Heading</h3> <p>Text content for the second column. This layout is flexible to accommodate different image aspect ratios, and the image itself is unconstrained, so it will display at its native aspect ratio.</p> </div></div>",
+    "snippetHtml": "<div class=\"two-col img-text\">\n  <div>\n    <img src=\"https://images.unsplash.com/photo-1778546978926-100202afc9cf?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" alt=\"put alternative text here\" width=\"1024\" height=\"1127\" loading=\"lazy\">\n  </div>\n  <div>\n    <p class=\"tag\">optional tag</p>\n    <h3>Optional H3 Heading</h3>\n    <p>Text content for the second column. This layout is flexible to accommodate different image aspect ratios, and the image itself is unconstrained, so it will display at its native aspect ratio.</p>\n  </div>\n</div>",
+    "keywords": "new canvas text block side by side image flexible nested",
+    "category": "Side by Side Blocks"
+  },
+  {
+    "id": "new-canvas-img-text-dark",
+    "title": "Two-Column Flexible Nested Image and Text Block (Dark)",
+    "description": "Nested image and text blocks displayed side by side. This image is unconstrained and the surrounding layout is flexible to accommodate different image aspect ratios.",
+    "previewHtml": "<div class=\"two-col img-text dark\"> <div><img src=\"https://images.unsplash.com/photo-1778546978926-100202afc9cf?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" alt=\"put alternative text here\" width=\"1024\" height=\"1127\" loading=\"lazy\"></div> <div> <p class=\"tag\">optional tag</p> <h3>Optional H3 Heading</h3> <p>Text content for the second column. This layout is flexible to accommodate different image aspect ratios, and the image itself is unconstrained, so it will display at its native aspect ratio.</p> </div></div>",
+    "snippetHtml": "<div class=\"two-col img-text dark\">\n  <div>\n    <img src=\"https://images.unsplash.com/photo-1778546978926-100202afc9cf?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" alt=\"put alternative text here\" width=\"1024\" height=\"1127\" loading=\"lazy\">\n  </div>\n  <div>\n    <p class=\"tag\">optional tag</p>\n    <h3>Optional H3 Heading</h3>\n    <p>Text content for the second column. This layout is flexible to accommodate different image aspect ratios, and the image itself is unconstrained, so it will display at its native aspect ratio.</p>\n  </div>\n</div>",
+    "keywords": "new canvas text block side by side image flexible nested",
+    "category": "Side by Side Blocks"
+  },
+  {
+    "id": "new-canvas-img-text-corner-accent",
+    "title": "Two-Column Flexible Nested Image and Text Block (Corner Accent)",
+    "description": "Nested image and text blocks displayed side by side. This image is unconstrained and the surrounding layout is flexible to accommodate different image aspect ratios.",
+    "previewHtml": "<div class=\"two-col img-text corner-accent\"> <div><img src=\"https://images.unsplash.com/photo-1778546978926-100202afc9cf?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" alt=\"put alternative text here\" width=\"1024\" height=\"1127\" loading=\"lazy\"></div> <div> <p class=\"tag\">optional tag</p> <h3>Optional H3 Heading</h3> <p>Text content for the second column. This layout is flexible to accommodate different image aspect ratios, and the image itself is unconstrained, so it will display at its native aspect ratio.</p> </div></div>",
+    "snippetHtml": "<div class=\"two-col img-text corner-accent\">\n  <div>\n    <img src=\"https://images.unsplash.com/photo-1778546978926-100202afc9cf?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" alt=\"put alternative text here\" width=\"1024\" height=\"1127\" loading=\"lazy\">\n  </div>\n  <div>\n    <p class=\"tag\">optional tag</p>\n    <h3>Optional H3 Heading</h3>\n    <p>Text content for the second column. This layout is flexible to accommodate different image aspect ratios, and the image itself is unconstrained, so it will display at its native aspect ratio.</p>\n  </div>\n</div>",
+    "keywords": "new canvas text block side by side image flexible nested",
+    "category": "Side by Side Blocks"
+  },  
+  {
+    "id": "new-canvas-img-text-corner-accent-dark",
+    "title": "Two-Column Flexible Nested Image and Text Block (Corner Accent, Dark)",
+    "description": "Nested image and text blocks displayed side by side. This image is unconstrained and the surrounding layout is flexible to accommodate different image aspect ratios.",
+    "previewHtml": "<div class=\"two-col img-text corner-accent dark\"> <div><img src=\"https://images.unsplash.com/photo-1778546978926-100202afc9cf?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" alt=\"put alternative text here\" width=\"1024\" height=\"1127\" loading=\"lazy\"></div> <div> <p class=\"tag\">optional tag</p> <h3>Optional H3 Heading</h3> <p>Text content for the second column. This layout is flexible to accommodate different image aspect ratios, and the image itself is unconstrained, so it will display at its native aspect ratio.</p> </div></div>",
+    "snippetHtml": "<div class=\"two-col img-text corner-accent dark\">\n  <div>\n    <img src=\"https://images.unsplash.com/photo-1778546978926-100202afc9cf?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" alt=\"put alternative text here\" width=\"1024\" height=\"1127\" loading=\"lazy\">\n  </div>\n  <div>\n    <p class=\"tag\">optional tag</p>\n    <h3>Optional H3 Heading</h3>\n    <p>Text content for the second column. This layout is flexible to accommodate different image aspect ratios, and the image itself is unconstrained, so it will display at its native aspect ratio.</p>\n  </div>\n</div>",
+    "keywords": "new canvas text block side by side image flexible nested",
+    "category": "Side by Side Blocks"
+  },  
+  {
     "id": "new-canvas-img-caption",
     "title": "Image with Sharp Corners",
     "description": "Image block with caption text underneath.",
@@ -214,15 +259,6 @@
     "snippetHtml": "<div class=\"img-caption\">\n  <img src=\"https://courses.online.umich.edu/courses/284/files/9355/preview\" class=\"rounded-corners\" alt=\"Course-Image-Placeholder.jpg\" loading=\"lazy\">\n  <p><em>Put caption text here</em></p>\n</div>",
     "keywords": "new canvas image block caption",
     "category": "Images with Captions"
-  },
-  {
-    "id": "new-canvas-text-img-highlight",
-    "title": "Two-Column Text and Image Block (Highlight)",
-    "description": "Text and image blocks displayed side by side with a highlight background.",
-    "previewHtml": "<div class=\"two-col text-img highlight\"> <div> <p>Text content for the first column. This variation is intended for a use case where the content needs to stand out more. In the second column, replace the image with your own, and ensure that it is properly sized and alt-texted.</p> </div> <div><img src=\"https://images.unsplash.com/photo-1616017640739-44ce2bfd9b4e?q=80&amp;w=387&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" alt=\"put alternative text here\" width=\"1024\" height=\"1127\" loading=\"lazy\"></div></div>",
-    "snippetHtml": "<div class=\"two-col text-img highlight\">\n  <div>\n    <p>Text content for the first column. In the second column, replace the image with your own, and ensure that it is properly sized and alt-texted.</p>\n  </div>\n  <div>\n    <img src=\"https://images.unsplash.com/photo-1616017640739-44ce2bfd9b4e?q=80&amp;w=387&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" alt=\"put alternative text here\" width=\"1024\" height=\"1127\" loading=\"lazy\">\n  </div>\n</div>",
-    "keywords": "new canvas text block side by side image highlight background",
-    "category": "Side by Side Blocks"
   },
   {
     "id": "new-canvas-table",
