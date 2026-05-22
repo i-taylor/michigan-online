@@ -101,6 +101,7 @@ a.external:active span {
 .new-canvas {
     color: @um-blue;
     border-top: @line-default solid @blue-warm;
+    max-width: 1366px;
     
     p, ul, ol, table {
         .type-body;
@@ -436,7 +437,13 @@ a.external:active span {
             }
             
             h2 {
+                margin: .5rem 0 2rem 0;
                 text-align: center;
+
+                @media @tablet {
+                    max-width: 850px;
+                    margin: 0 auto 2rem auto;
+                }
             }
 
             p {
@@ -456,6 +463,10 @@ a.external:active span {
             .video-tag-wrapper {
                 text-align: right;
                 margin: 0 0 1.5rem 0;
+
+                @media @tablet {
+                    margin: 0 0 0.5rem 0;
+                }
             }
             
             &.highlight {
@@ -1024,6 +1035,85 @@ a.external:active span {
                 
                 li::marker {
                     color: @white;
+                }
+            }
+        }
+
+        &.img-text {
+            .rounded-medium;
+            background-color: @blue-warm-extra-light;
+
+            img {
+                border-radius: ~"calc(40px - 1rem)";
+                height: auto;
+                object-fit: unset;
+            }
+            
+            & > div {
+                &:last-of-type {
+                    padding-top: 0;
+
+                    @media @desktop {
+                        padding-top: 2rem;
+                        padding-left: 0;
+                    }
+                }
+            }
+
+            &.dark {
+                background-color: @um-blue;
+                color: @white;
+
+                a {
+                    color: @white;
+
+                    &:hover {
+                        text-decoration-color: @um-maize !important;
+                    }
+                }
+                
+                li::marker {
+                    color: @blue-warm;
+                }
+
+                li li::marker {
+                    color: @white;
+                }
+
+                .tag {
+                    border-color: @white;
+                }
+            }
+
+            &.corner-accent {
+                background-color: @white;
+                border: @line-thick solid @blue-warm-light;
+                position: relative;
+                overflow: hidden;
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    background-color: @blue-warm-light;
+                    bottom: 0;
+                    left: 0;
+                    height: 500px;
+                    width: 500px;
+                    clip-path: polygon(0 100%, 0 0, 73% 100%);
+                }
+
+                & > div {
+                    z-index: 1;
+                    position: relative;
+                }
+
+                &.dark {
+                    background-color: @um-blue;
+                    border: none;
+
+                    &:before {
+                        background-color: @blue-cool;
+                    }
                 }
             }
         }
