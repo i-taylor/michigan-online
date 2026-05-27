@@ -446,6 +446,15 @@ a.external:active span {
                 }
             }
 
+            h3 {
+                text-align: center;
+
+                @media @tablet {
+                    max-width: 850px;
+                    margin: 1rem auto;
+                }
+            }
+
             p {
                 max-width: 850px;
                 margin: 1rem auto;
@@ -466,6 +475,10 @@ a.external:active span {
 
                 @media @tablet {
                     margin: 0 0 0.5rem 0;
+                }
+
+                & + h3 {
+                    margin-top: 0;
                 }
             }
             
