@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build:css": "mkdir -p build/dist && lessc --clean-css src/less/canvas-style.less build/dist/canvas-style.css && cp -r src/assets build/dist/assets",
-    "build:css:staging": "mkdir -p build && lessc --clean-css src/less/canvas-style.less build/canvas-style.css && cp -r src/assets build/assets",
+    "build:css": "mkdir -p build/dist && lessc --clean-css src/less/canvas-style.less build/dist/css/canvas-style.css && cp -r src/assets build/dist/assets",
+    "build:css:staging": "mkdir -p build && lessc --clean-css src/less/canvas-style.less build/css/canvas-style.css && cp -r src/assets build/assets",
     "build:cookbook": "vite build",
     "build": "npm run build:css && npm run build:cookbook"
   },
