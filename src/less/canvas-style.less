@@ -17,6 +17,7 @@
 @yellow-extra-light: #fffbeb;
 @purple: #702082;
 @purple-light: #F5F0F6;
+@black: #000000;
 
 // Grey Palette
 @neutral-extra-light: #f8f8f8;
@@ -772,18 +773,20 @@ a.external:active span {
         }
     }
     
-    .graphical-highlight {
-        background-color: @yellow-light;
+    /* Graphical highlight: base mixin + color variants */
+    .graphical-highlight-base(@bg-color, @bg-image: '../assets/bg-chevron-set.svg', @text-color: @black) {
+        background-color: @bg-color;
+        color: @text-color;
         padding: 3rem 2rem;
-        
+
         @media @tablet {
             display: flex;
         }
-        
+
         @media @desktop {
             padding: 4rem 3rem;
         }
-        
+
         & > div {
             &:first-of-type {
                 @media @tablet {
@@ -791,13 +794,13 @@ a.external:active span {
                     margin-right: 2rem;
                 }
             }
-            
+
             &:last-of-type {
-                background: url('../assets/bg-chevron-set.svg') no-repeat center right;
+                background: url('@{bg-image}') no-repeat center right;
                 background-size: contain;
                 width: 100%;
                 height: 100px;
-                
+
                 @media @tablet {
                     flex: 1;
                     height: auto;
@@ -805,6 +808,15 @@ a.external:active span {
             }
         }
     }
+
+    /* Default (black text) */
+    .graphical-highlight { .graphical-highlight-base(@yellow-light, '../assets/bg-chevron-set.svg', @black); }
+
+    /* Variant modifiers (blue variants use white text; maize uses black text) */
+    .graphical-highlight--umblue { .graphical-highlight-base(@um-blue, '../assets/bg-chevron-set.svg', @white); }
+    .graphical-highlight--maize { .graphical-highlight-base(@um-maize, '../assets/bg-chevron-set.svg', @black); }
+    .graphical-highlight--cool-blue { .graphical-highlight-base(@blue-cool, '../assets/bg-chevron-set_cool-blue.svg', @white); }
+
     
     .sub-title {
         background-color: @blue-warm-extra-light;
