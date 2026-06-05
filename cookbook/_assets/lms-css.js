@@ -5,10 +5,10 @@ function getFallbackCssUrl() {
   const { origin, pathname } = window.location
 
   if (pathname.includes('/staging/')) {
-    return `${origin}/canvas-css/staging/canvas-style.css`
+    return `${origin}/canvas-css/staging/css/canvas-style.css`
   }
 
-  return `${origin}/canvas-css/dist/canvas-style.css`
+  return `${origin}/canvas-css/dist/css/canvas-style.css`
 }
 
 if (import.meta.env.DEV) {
