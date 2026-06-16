@@ -64,11 +64,38 @@
   },
   {
     "id": "new-canvas-graphical-highlight",
-    "title": "Graphical Highlight",
-    "description": "Graphical highlight for emphasizing content, especially on a following course page.",
+    "title": "Graphical Highlight (Default)",
+    "description": "Graphical highlight for emphasizing content, especially something coming up on a following course page. Most often used at the bottom of an Assignment page.",
     "previewHtml": "<section class=\"graphical-highlight\">\n  <div>\n    <p>Finally, when you have your answers drafted on a separate document, click Next to proceed to the quiz where you will confirm you've thoughtfully answered the questions and receive your grade.</p>\n  </div>\n <div>&nbsp;</div></section>",
     "snippetHtml": "<section class=\"graphical-highlight\">\n  <div>\n    <p>Highlight content</p>\n  </div>\n  <div>&nbsp;</div>\n </section>",
     "keywords": "new canvas graphical highlight emphasis",
+    "category": "Text Blocks"
+  },
+  {
+    "id": "new-canvas-graphical-highlight-maize",
+    "title": "Graphical Highlight (Maize)",
+    "description": "Graphical highlight for emphasizing upcoming content with a Maize color scheme.",
+    "previewHtml": "<section class=\"graphical-highlight maize\">\n  <div>\n    <p>Finally, when you have your answers drafted on a separate document, click Next to proceed to the quiz where you will confirm you've thoughtfully answered the questions and receive your grade.</p>\n  </div>\n <div>&nbsp;</div></section>",
+    "snippetHtml": "<section class=\"graphical-highlight maize\">\n  <div>\n    <p>Highlight content</p>\n  </div>\n  <div>&nbsp;</div>\n </section>",
+    "keywords": "new canvas graphical highlight maize emphasis",
+    "category": "Text Blocks"
+  },
+    {
+    "id": "new-canvas-graphical-highlight-cool-blue",
+    "title": "Graphical Highlight (Cool Blue)",
+    "description": "Graphical highlight for emphasizing upcoming content with a Cool Blue color scheme.",
+    "previewHtml": "<section class=\"graphical-highlight cool-blue\">\n  <div>\n    <p>Finally, when you have your answers drafted on a separate document, click Next to proceed to the quiz where you will confirm you've thoughtfully answered the questions and receive your grade.</p>\n  </div>\n <div>&nbsp;</div></section>",
+    "snippetHtml": "<section class=\"graphical-highlight cool-blue\">\n  <div>\n    <p>Highlight content</p>\n  </div>\n  <div>&nbsp;</div>\n </section>",
+    "keywords": "new canvas graphical highlight cool blue emphasis",
+    "category": "Text Blocks"
+  },
+    {
+    "id": "new-canvas-graphical-highlight-um-blue",
+    "title": "Graphical Highlight (U-M Blue)",
+    "description": "Graphical highlight for emphasizing upcoming content with a UM Blue color scheme. Use this variation wisely, sparingly, and when you want to add more U-M branding to a course page.",
+    "previewHtml": "<section class=\"graphical-highlight um-blue\">\n  <div>\n    <p>Finally, when you have your answers drafted on a separate document, click Next to proceed to the quiz where you will confirm you've thoughtfully answered the questions and receive your grade.</p>\n  </div>\n <div>&nbsp;</div></section>",
+    "snippetHtml": "<section class=\"graphical-highlight um-blue\">\n  <div>\n    <p>Highlight content</p>\n  </div>\n  <div>&nbsp;</div>\n </section>",
+    "keywords": "new canvas graphical highlight um blue emphasis",
     "category": "Text Blocks"
   },
   {

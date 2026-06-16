@@ -774,16 +774,17 @@ a.external:active span {
     
     .graphical-highlight {
         background-color: @yellow-light;
+        color: @um-blue;
         padding: 3rem 2rem;
-        
+
         @media @tablet {
             display: flex;
         }
-        
+
         @media @desktop {
             padding: 4rem 3rem;
         }
-        
+
         & > div {
             &:first-of-type {
                 @media @tablet {
@@ -791,18 +792,37 @@ a.external:active span {
                     margin-right: 2rem;
                 }
             }
-            
+
             &:last-of-type {
                 background: url('../assets/bg-chevron-set.svg') no-repeat center right;
                 background-size: contain;
                 width: 100%;
                 height: 100px;
-                
+
                 @media @tablet {
                     flex: 1;
                     height: auto;
                 }
             }
+        }
+
+        &.cool-blue {
+            background-color: @blue-cool;
+            color: @white;
+
+            > div:last-of-type {
+                background-image: url('../assets/bg-chevron-set_cool-blue.svg');
+            }
+        }
+
+        &.um-blue {
+            background-color: @um-blue;
+            color: @white;
+        }
+
+        &.maize {
+            background-color: @um-maize;
+            color: @um-blue;
         }
     }
     
