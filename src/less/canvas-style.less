@@ -1154,7 +1154,7 @@ a.external:active span {
                 }
             }
             
-            &.unset {
+            &.unset {                
                 & > div {
                     width: unset;
                 }
@@ -1164,6 +1164,27 @@ a.external:active span {
                     min-width: 200px;
                 }
             }
+        }
+    }
+    
+    .unset-img-width {
+        margin: 2rem auto;
+        padding: 2rem;
+        .rounded-medium;
+        background-color: @blue-warm-extra-light;
+
+        @media @desktop {
+            display: flex;
+        }
+        
+        h4 {
+            margin-top: 0;
+        }
+        
+        img {
+            border-radius: ~"calc(40px - 1rem)";
+            height: auto;
+            margin-right: 2rem;
         }
     }
 }
