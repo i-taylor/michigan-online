@@ -270,6 +270,15 @@
     "category": "Side by Side Blocks"
   },  
   {
+    "id": "new-canvas-unset-img-text",
+    "title": "Two-Column Flexible Nested Image with Unset Width and Text Block",
+    "description": "Nested image and text blocks displayed side by side. The image is has an unset width, so it can accept (and requires) a width value when using within Canvas' image editor. The surrounding layout and text are flexible to accommodate different image dimensions.",
+    "previewHtml": "<div class=\"unset-img-width\"><img src=\"https://courses.online.umich.edu/courses/284/files/14985/preview\" alt=\"yay squirrel\" width=\"300\" height=\"400\" data-api-endpoint=\"https://courses.online.umich.edu/api/v1/courses/284/files/14985\" data-api-returntype=\"File\" loading=\"lazy\">\n<div>\n<p class=\"tag\">Good Read</p>\n<h4><a class=\"inline_disabled external\" href=\"https://tanekosayshello.com\" target=\"_blank\" rel=\"noreferrer noopener\"><span>Squirrel: The Secrets of Successful Virtual Communication</span></a></h4>\n<p><em>by Squirrel McSquirrelsky (2025)</em></p>\n<p><strong>Sample Insights:</strong></p>\n<ul>\n<li>Bubbly elit crumbles lorem ipsum dolor sit amet. Experience the enim texture of nostrud lorem ipsum dolor sit amet.</li>\n<li>Velvety, fig jam, aliquip, ricotta, reprehenderit, exercitation, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>\n<li>Saint-nectaire quia voluptate creates a consectetur combination. Ullamco labore crumbles ut enim ad minim veniam.&nbsp;</li>\n</ul>\n</div>\n</div>",
+    "snippetHtml": "<div class=\"unset-img-width\">\n  <img src=\"https://courses.online.umich.edu/courses/284/files/14985/preview\" alt=\"alternate text goes here\" width=\"300\" height=\"400\" loading=\"lazy\">\n  <div>\n    <p class=\"tag\">Optional Tag</p>\n    <h4><a href=\"https://tanekosayshello.com\" target=\"_blank\" rel=\"noreferrer noopener\">Squirrel: The Secrets of Successful Virtual Communication</span></a></h4>\n    <p><em>by Squirrel McSquirrelsky (2025)</em></p>\n    <p>Text content goes here.</p>\n  </div>\n</div>",
+    "keywords": "new canvas text image flexible unset",
+    "category": "Side by Side Blocks"
+  },
+  {
     "id": "new-canvas-img-caption",
     "title": "Image with Sharp Corners",
     "description": "Image block with caption text underneath.",
