@@ -1153,6 +1153,49 @@ a.external:active span {
                     }
                 }
             }
+            
+            &.unset {                
+                & > div {
+                    width: unset;
+                }
+                
+                img {
+                    width: unset;
+                    min-width: 200px;
+                }
+            }
+        }
+    }
+    
+    .unset-img-width {
+        margin: 2rem auto;
+        padding: 2rem;
+        .rounded-medium;
+        background-color: @blue-warm-extra-light;
+
+        @media @tablet {
+            display: flex;
+        }
+        
+        .tag {
+            margin-bottom: 1rem;
+        }
+        
+        h4 {
+            margin-top: 0;
+        }
+        
+        img {
+            border-radius: ~"calc(40px - 1rem)";
+            height: auto;
+            margin-bottom: 2rem;
+            max-width: 100%;
+            
+            @media @tablet {
+                margin-bottom: 0;
+                margin-right: 2rem;
+                height: fit-content;
+            }
         }
     }
 }
